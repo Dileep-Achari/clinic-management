@@ -1,0 +1,130 @@
+[
+    {
+      "Suv_Substance_Code": "SS0000072",
+      "Suv_Substance_Name": "Amlodipine"
+    },
+    {
+      "Suv_Substance_Code": "SS0001114",
+      "Suv_Substance_Name": "Ramipril"
+    },
+    {
+      "Suv_Substance_Code": "SS0000420",
+      "Suv_Substance_Name": "Dobutamine"
+    },
+    {
+      "Suv_Substance_Code": "SS0000709",
+      "Suv_Substance_Name": "Isosorbide Mononitrate"
+    },
+    {
+      "Suv_Substance_Code": "SS0000100",
+      "Suv_Substance_Name": "Atorvastatin"
+    },
+    {
+      "Suv_Substance_Code": "SS0000826",
+      "Suv_Substance_Name": "Metformin"
+    },
+    {
+      "Suv_Substance_Code": "SS0001038",
+      "Suv_Substance_Name": "Pioglitazone"
+    },
+    {
+      "Suv_Substance_Code": "SS0000612",
+      "Suv_Substance_Name": "Glimepiride"
+    },
+    {
+      "Suv_Substance_Code": "SS0001215",
+      "Suv_Substance_Name": "Somatostatin"
+    },
+    {
+      "Suv_Substance_Code": "SS0001232",
+      "Suv_Substance_Name": "Sulbactam"
+    },
+    {
+      "Suv_Substance_Code": "SS0000077",
+      "Suv_Substance_Name": "Ampicillin"
+    },
+    {
+      "Suv_Substance_Code": "SS0000760",
+      "Suv_Substance_Name": "Lidocaine"
+    },
+    {
+      "Suv_Substance_Code": "SS0001031",
+      "Suv_Substance_Name": "Phenytoin"
+    },
+    {
+      "Suv_Substance_Code": "SS0000821",
+      "Suv_Substance_Name": "Meropenem"
+    },
+    {
+      "Suv_Substance_Code": "SS0000707",
+      "Suv_Substance_Name": "Isoniazid"
+    },
+    {
+      "Suv_Substance_Code": "SS0001407",
+      "Suv_Substance_Name": "Warfarin"
+    },
+    {
+      "Suv_Substance_Code": "SS0000020",
+      "Suv_Substance_Name": "Acetylsalicylic Acid"
+    },
+    {
+      "Suv_Substance_Code": "SS0000313",
+      "Suv_Substance_Name": "Clopidogrel"
+    },
+    {
+      "Suv_Substance_Code": "SS0001228",
+      "Suv_Substance_Name": "Streptokinase"
+    },
+    {
+      "Suv_Substance_Code": "SSE0000549",
+      "Suv_Substance_Name": "Diclofenac"
+    },
+    {
+      "Suv_Substance_Code": "SSE0000550",
+      "Suv_Substance_Name": "vecuronium"
+    },
+    {
+      "Suv_Substance_Code": "SS0000379",
+      "Suv_Substance_Name": "Dexamethasone"
+    },
+    {
+      "Suv_Substance_Code": "SS0000440",
+      "Suv_Substance_Name": "Doxycycline"
+    },
+    {
+      "Suv_Substance_Code": "SS0001685",
+      "Suv_Substance_Name": "Rifampicin"
+    },
+    {
+      "Suv_Substance_Code": "SS0001672",
+      "Suv_Substance_Name": "Paracetamol"
+    },
+    {
+      "Suv_Substance_Code": "SS0000610",
+      "Suv_Substance_Name": "Glibenclamide"
+    },
+    {
+      "Suv_Substance_Code": "SS0000072+SS0001114",
+      "Suv_Substance_Name": "Amlodipine+Ramipril"
+    },
+    {
+      "Suv_Substance_Code": "SS0001267+SS0000072",
+      "Suv_Substance_Name": "Telmisartan+Amlodipine"
+    },
+    {
+      "Suv_Substance_Code": "SS0000612+SS0000826",
+      "Suv_Substance_Name": "Glimepiride+Metformin"
+    },
+    {
+      "Suv_Substance_Code": "SS0001672+SS0000394",
+      "Suv_Substance_Name": "Paracetamol+Diclofenac"
+    },
+    {
+      "Suv_Substance_Code": "SS0000313+SS0000020",
+      "Suv_Substance_Name": "Clopidogrel+Acetylsalicylic Acid"
+    },
+    {
+      "Suv_Substance_Code": "SS0001232+SS0000240",
+      "Suv_Substance_Name": "Sulbactam+Cefoperazone"
+    }
+   ]

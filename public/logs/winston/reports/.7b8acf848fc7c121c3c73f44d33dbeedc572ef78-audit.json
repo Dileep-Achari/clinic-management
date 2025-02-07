@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 15
+    },
+    "auditLog": "D:\\NODE_CODE_BACKUP\\20250207\\api_v1\\public\\logs\\winston\\reports\\.7b8acf848fc7c121c3c73f44d33dbeedc572ef78-audit.json",
+    "files": [
+        {
+            "date": 1738918918368,
+            "name": "D:\\NODE_CODE_BACKUP\\20250207\\api_v1\\public\\logs\\winston\\reports\\20250207.log",
+            "hash": "940c67ae35ab0a01c9b2f8f05b320f80"
+        }
+    ]
+}

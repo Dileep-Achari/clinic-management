@@ -1,0 +1,649 @@
+﻿
+    <style>
+        @media print {
+            body {
+                font-size: 13pt;
+                font-family: Times New Roman!important;
+                padding: 0;
+                margin: 0
+            }
+            div,
+            p,
+            span,
+            td {
+                font-size: 13pt!important
+            }
+        }
+        
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box
+        }
+        
+        body {
+            font-size: 13pt;
+            font-family: Times New Roman!important;
+            padding: 0;
+            margin: 20px;
+        }
+        
+        .reporttitle {
+            font-size: 14pt;
+            text-decoration: underline;
+            font-family: Times New Roman
+        }
+        
+        div,
+        h1,
+        h2,
+        h3,
+        p,
+        span {
+            padding: 0;
+            margin: 0
+        }
+        
+        td {
+            vertical-align: top
+        }
+        
+        p {
+            text-align: justify
+        }
+        
+        div,
+        p,
+        span,
+        td {
+            font-size: 13pt;
+            font-family: Times New Roman!important
+        }
+        
+        .thcol1 {
+            width: 200px;
+            text-align: left;
+            font-weight: 700;
+            vertical-align: top;
+            text-decoration: underline;
+            padding: 0 14px 10px 0
+        }
+        
+        .thcol2 {
+            width: 20px;
+            text-align: left;
+            font-weight: 700;
+            vertical-align: top;
+            text-decoration: underline
+        }
+        
+        .thcol3 {
+            width: auto;
+            text-align: left;
+            font-weight: 700;
+            vertical-align: top;
+            text-decoration: underline
+        }
+        
+        .thcol4 {
+            width: 25%;
+            text-align: left;
+            font-weight: 700;
+            vertical-align: top;
+            text-decoration: underline
+        }
+        
+        .tcol1 {
+            width: 200px;
+            text-align: left;
+            font-weight: 700;
+            vertical-align: top
+        }
+        
+        .tcol2 {
+            width: 20px;
+            text-align: left;
+            vertical-align: top
+        }
+        
+        .tcol3 {
+            width: auto;
+            text-align: left;
+            vertical-align: top
+        }
+        
+        .tcol4 {
+            width: 25%;
+            text-align: left;
+            vertical-align: top
+        }
+        
+        .tcol1 span:nth-child(1) {
+            line-height: 1.5
+        }
+        
+        .resultdata {
+            font-family: Times New Roman!important;
+            padding: 0;
+            position: relative
+        }
+        
+        .componenttitle {
+            font-weight: 700
+        }
+        
+        .sign {
+            height: 60px
+        }
+        
+        .signaturetbl td span {
+            font-family: Times New Roman!important;
+            display: block
+        }
+        
+        .histopathology #HistoData {
+            display: block
+        }
+        
+        .nabllogo span br {
+            display: none
+        }
+        
+        .nabllogo span {
+            font-size: 11pt!important
+        }
+        
+        .signaturetd span:nth-child(2) {
+            font-size: 12pt;
+            padding: 3px 0;
+            font-weight: 700
+        }
+    </style>
+    <img style="display: none;" id="imgqrcode" class="qrcodeimg" src="file:///D:/hosting/prod/node/api/constants/generate-pdf/qrimg.png">
+    <img style="display: none;" id="imgqrcode" class="qrcodeimg" src="https://barcode.tec-it.com/barcode.ashx?data=10200000266">
+    
+    <div class="resultdata">
+        <div align="center" style="display: none;">
+            <span id="lblsgName" style="font-weight: bold; display: none; text-decoration: underline">ULTRASOUND</span>
+            <br>
+            <span id="lblsrvDispName" style="font-weight: bold; text-decoration: underline; display: none">ULTRA SOUND-PREGNANCY</span>
+        </div>
+        <div>
+            <table id="tbldata" border="0" cellpadding="0" cellspacing="0" width="100%" class="tblfont">
+                <tbody>
+                    <tr>
+                        <td align="Center" class="reporttitle"><span></span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tbody>
+                                    <tr>
+                                        <td class="componentvalue"><span><p style="margin-left:0cm; margin-right:0cm; text-align:center"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.5pt"><span style="font-family:" verdana","sans-serif""="">ROUTINE ANTENATAL SCAN</span></span>
+                                            </strong>
+                                            </span>
+                                            </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Ultrasonography examination of the gravid uterus was performed.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Single live fetus is seen in cephalic presentation.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Good fetal movements noted.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Foetal cardiac pulsations are well visualised and recorded on M.Mode.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">B.P.D</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">F.F.L</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">H.C </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">A.C</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">F.H.R&nbsp; </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">E.F.A BY U/S </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">E.F.W </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">E.D.C BY U/S</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Placenta is along posterior wall, grade - I maturity.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Liquor is adequate.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">No obvious major congenital anomalies noted at this time. </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.5pt"><span style="font-family:" arial","sans-serif""="">IMPRESSION : </span></span>
+                                                </strong>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.5pt"><span style="font-family:" arial","sans-serif""="">* </span></span>
+                                                </strong><strong><span style="font-size:10.0pt"><span style="font-family:" arial","sans-serif""="">SINGLE LIVE FETUS IN CEPHALIC&nbsp; PRESENTATION AT 00 – 00 WEEKS OF GESTATIONAL AGE.</span></span></strong></span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:10.0pt"><span style="font-family:" arial","sans-serif""="">- FOR CLINICAL CORRELATION.</span></span>
+                                                </strong>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm; text-align:center">&nbsp;</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div>
+            <span id="lbllocation" style="display: none;">* Sample processed at Yashoda Hospitals HIMAYATNAGAR-10</span>
+        </div>
+        <div style="margin-top: 5px; margin-bottom: 5px; text-align: center; display: none;">
+            <span id="Label2" class="myfont" style="font-size: 12px;">* End Of Report *</span>
+        </div>
+        <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="signaturetbl">
+                <tbody>
+                    <tr>
+                        <td align="center" width="33%">
+                            <img id="imgsign" class="sign" src="file:///D:/hosting/prod/node/api/constants/generate-pdf/nabl.png" style="border-width:0px; width: 50px; height: 50px;">
+                            <span id="lbldrname" class="myfont" style="font-weight:bold;"></span>
+                            <span id="lblqualification" class="myfont"></span>
+                            <span id="lbldesignation" class="myfont"></span>
+                        </td>
+                        <td align="center" width="33%">
+                            <img id="imgsign" class="sign" src="file:///D:/hosting/prod/node/api/constants/generate-pdf/signature.png" style="border-width:0px; width: 50px; height: 50px;">
+                            <span id="lbldrname" class="myfont" style="font-weight:bold;"></span>
+                            <span id="lblqualification" class="myfont"></span>
+                            <span id="lbldesignation" class="myfont"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <span id="lblaccred" class="myfont" style="display: none;">* Denotes Parameter NOT Accredited by NABL</span>
+        </div>
+    </div>
+    <div class="resultdata">
+        <div align="center" style="display: none;">
+            <span id="lblsgName" style="font-weight: bold; display: none; text-decoration: underline">ULTRASOUND</span>
+            <br>
+            <span id="lblsrvDispName" style="font-weight: bold; text-decoration: underline; display: none">ULTRA SOUND-PREGNANCY</span>
+        </div>
+
+        <div>
+            <table id="tbldata" border="0" cellpadding="0" cellspacing="0" width="100%" class="tblfont">
+                <tbody>
+                    <tr>
+                        <td align="Center" class="reporttitle"><span></span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tbody>
+                                    <tr>
+                                        <td class="componentvalue"><span><p style="margin-left:0cm; margin-right:0cm; text-align:center"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.5pt"><span style="font-family:" verdana","sans-serif""="">ROUTINE ANTENATAL SCAN</span></span>
+                                            </strong>
+                                            </span>
+                                            </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Ultrasonography examination of the gravid uterus was performed.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Single live fetus is seen in cephalic presentation.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Good fetal movements noted.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Foetal cardiac pulsations are well visualised and recorded on M.Mode.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">B.P.D</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">F.F.L</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">H.C </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">A.C</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">F.H.R&nbsp; </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">E.F.A BY U/S </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">E.F.W </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">E.D.C BY U/S</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Placenta is along posterior wall, grade - I maturity.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Liquor is adequate.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">No obvious major congenital anomalies noted at this time. </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.5pt"><span style="font-family:" arial","sans-serif""="">IMPRESSION : </span></span>
+                                                </strong>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.5pt"><span style="font-family:" arial","sans-serif""="">* </span></span>
+                                                </strong><strong><span style="font-size:10.0pt"><span style="font-family:" arial","sans-serif""="">SINGLE LIVE FETUS IN CEPHALIC&nbsp; PRESENTATION AT 00 – 00 WEEKS OF GESTATIONAL AGE.</span></span></strong></span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:10.0pt"><span style="font-family:" arial","sans-serif""="">- FOR CLINICAL CORRELATION.</span></span>
+                                                </strong>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm; text-align:center">&nbsp;</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div>
+            <span id="lbllocation" style="display: none;">* Sample processed at Yashoda Hospitals HIMAYATNAGAR-10</span>
+        </div>
+        <div style="margin-top: 5px; margin-bottom: 5px; text-align: center; display: none;">
+            <span id="Label2" class="myfont" style="font-size: 12px;">* End Of Report *</span>
+        </div>
+        <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="signaturetbl">
+                <tbody>
+                    <tr>
+                        <td align="center" width="33%">
+                            <img id="imgsign" class="sign" src="file:///D:/hosting/prod/node/api/constants/generate-pdf/nabl.png" style="border-width:0px; width: 50px; height: 50px;">
+                            <span id="lbldrname" class="myfont" style="font-weight:bold;"></span>
+                            <span id="lblqualification" class="myfont"></span>
+                            <span id="lbldesignation" class="myfont"></span>
+                        </td>
+                        <td align="center" width="33%">
+                            <img id="imgsign" class="sign" src="file:///D:/hosting/prod/node/api/constants/generate-pdf/signature.png" style="border-width:0px; width: 50px; height: 50px;">
+                            <span id="lbldrname" class="myfont" style="font-weight:bold;"></span>
+                            <span id="lblqualification" class="myfont"></span>
+                            <span id="lbldesignation" class="myfont"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <span id="lblaccred" class="myfont" style="display: none;">* Denotes Parameter NOT Accredited by NABL</span>
+        </div>
+    </div>
+    <div class="resultdata">
+        <div align="center" style="display: none;">
+            <span id="lblsgName" style="font-weight: bold; display: none; text-decoration: underline">ULTRASOUND</span>
+            <br>
+            <span id="lblsrvDispName" style="font-weight: bold; text-decoration: underline; display: none">ULTRA SOUND-PREGNANCY</span>
+        </div>
+
+        <div>
+            <table id="tbldata" border="0" cellpadding="0" cellspacing="0" width="100%" class="tblfont">
+                <tbody>
+                    <tr>
+                        <td align="Center" class="reporttitle"><span></span></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tbody>
+                                    <tr>
+                                        <td class="componentvalue"><span><p style="margin-left:0cm; margin-right:0cm; text-align:center"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.5pt"><span style="font-family:" verdana","sans-serif""="">ROUTINE ANTENATAL SCAN</span></span>
+                                            </strong>
+                                            </span>
+                                            </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Ultrasonography examination of the gravid uterus was performed.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Single live fetus is seen in cephalic presentation.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Good fetal movements noted.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Foetal cardiac pulsations are well visualised and recorded on M.Mode.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">B.P.D</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">F.F.L</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">H.C </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">A.C</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">F.H.R&nbsp; </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">E.F.A BY U/S </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">E.F.W </span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">E.D.C BY U/S</span></span>
+                                                </strong><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Placenta is along posterior wall, grade - I maturity.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">Liquor is adequate.</span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><span style="font-size:11.0pt"><span style="font-family:" verdana","sans-serif""="">No obvious major congenital anomalies noted at this time. </span></span>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.5pt"><span style="font-family:" arial","sans-serif""="">IMPRESSION : </span></span>
+                                                </strong>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:11.5pt"><span style="font-family:" arial","sans-serif""="">* </span></span>
+                                                </strong><strong><span style="font-size:10.0pt"><span style="font-family:" arial","sans-serif""="">SINGLE LIVE FETUS IN CEPHALIC&nbsp; PRESENTATION AT 00 – 00 WEEKS OF GESTATIONAL AGE.</span></span></strong></span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm"><span style="font-size:12pt"><span style="font-family:" times="" new="" roman",serif"=""><strong><span style="font-size:10.0pt"><span style="font-family:" arial","sans-serif""="">- FOR CLINICAL CORRELATION.</span></span>
+                                                </strong>
+                                                </span>
+                                                </span>
+                                            </p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+                                            <p style="margin-left:0cm; margin-right:0cm; text-align:center">&nbsp;</p>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div>
+            <span id="lbllocation" style="display: none;">* Sample processed at Yashoda Hospitals HIMAYATNAGAR-10</span>
+        </div>
+        <div style="margin-top: 5px; margin-bottom: 5px; text-align: center; display: none;">
+            <span id="Label2" class="myfont" style="font-size: 12px;">* End Of Report *</span>
+        </div>
+        <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="signaturetbl">
+                <tbody>
+                    <tr>
+                        <td align="center" width="33%">
+                            <img id="imgsign" class="sign" src="file:///D:/hosting/prod/node/api/constants/generate-pdf/nabl.png" style="border-width:0px; width: 50px; height: 50px;">
+                            <span id="lbldrname" class="myfont" style="font-weight:bold;"></span>
+                            <span id="lblqualification" class="myfont"></span>
+                            <span id="lbldesignation" class="myfont"></span>
+                        </td>
+                        <td align="center" width="33%">
+                            <img id="imgsign" class="sign" src="file:///D:/hosting/prod/node/api/constants/generate-pdf/signature.png" style="border-width:0px; width: 50px; height: 50px;">
+                            <span id="lbldrname" class="myfont" style="font-weight:bold;"></span>
+                            <span id="lblqualification" class="myfont"></span>
+                            <span id="lbldesignation" class="myfont"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <span id="lblaccred" class="myfont" style="display: none;">* Denotes Parameter NOT Accredited by NABL</span>
+        </div>
+    </div>

@@ -1,0 +1,231 @@
+/*
+ * CSS Document
+ * @Author: Mujahid Shaikh
+ * @Date: 2021-06-05
+ */
+ .mapi__carousel {
+    padding-top: 65px;
+    margin-top: -65px;
+}
+.mapi__carousel--banner {
+	padding: 100px 0;
+}
+.mapi__carousel--title {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+}
+.mapi__carousel--heading {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+}
+.mapi__carousel--content {
+	font-size: 18px;
+	font-weight: 300;
+    margin: 25px 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+.mapi__carousel .carousel-control {
+    font-size: 18px;
+    color: #ff9c00;
+    text-shadow: none;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+}
+.mapi__carousel .carousel-indicators li {
+	border: 1px solid #0482dc;
+}
+.mapi__carousel .carousel-indicators .active {
+    background-color: #0482dc;
+}
+.mapi-banner {
+	display: inline-block;
+	height: 450px;
+    max-width: 100%;
+}
+.img-mapi-responsive {
+	display: inline-block;
+	height: 360px;
+    max-width: 100%;
+}
+.tile__heading {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0 0 35px 0;
+    line-height: 44px;
+}
+.tile__heading::after {
+    background-color: #ff9c00;
+    border: 2px solid #ff9c00;
+    display: block;
+    content: "";
+    width: 65px;
+    margin: 10px 0;
+    padding-top: 0;
+    height: 5px;
+    border-radius: 4px;
+}
+.tile__heading--p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.tile__heading--cta {
+	margin-top: 25px;
+}
+.tile-after::after {
+    margin: 10px auto;
+}
+.c__stories {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #999999;
+}
+.tile__content--icon {
+	display: flex;
+    background-color: #ecf7ff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.tile__content h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    width: 80%;
+}
+.tile__content--align {
+	display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.align-centered {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.customers__count-img {
+	height: 55px;
+	margin-bottom: 10px;
+}
+.customers__count--h4 {
+	font-size: 44px;
+	font-weight: 600;
+	margin-top: 0;
+}
+.customers__count--p {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.customers__banner--left, .customers__banner--right {
+	text-align: center;
+}
+.client-logos {
+    display: inline-block;
+    width: 180px;
+}
+.customers__tile {
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+}
+.experiences {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #f3f3f3;
+    box-shadow: 0 2px 5px rgb(214 214 214 / 50%);
+    border-radius: 4px;
+}
+@media screen and (max-width: 480px) {
+	.align-centered {
+		display: block;
+	}
+	.mapi__carousel--title {
+    	font-size: 18px;
+	}
+	.mapi__carousel--heading {
+    	font-size: 24px;
+	}
+	.mapi__carousel--content {
+	    font-size: 14px;
+	    margin: 15px 0;
+	}
+	.mapi__carousel--banner {
+	    padding: 50px 25px;
+	}
+	.ml10 {
+	    margin-left: 10px;
+	}
+	.mapi-banner {
+		height: 300px;
+	}
+	.tile__heading, .tile__heading--p {
+		text-align: center;
+		width: 90%;
+	    margin: 0 auto;
+	}
+	.tile__heading--cta {
+		text-align: center;
+		width: 90%;
+		margin: 25px auto 0 auto;
+	}
+	.tile__heading::after {
+		margin: 15px auto;
+	}
+	.c__stories {
+		margin-top: 25px;
+		text-align: center;
+	}
+}
+.w300 {
+	width: 300px;
+}
+label {
+    font-weight: 500 !important;
+}
+.form-control {
+	font-size: 12px;
+}
+.ptb25 {
+	padding: 25px 0;
+}
+.navbar.nav-menubar.no-scroll {
+    background-color: #0482dc;
+}
+section {
+    padding: 75px 0;
+}
+
+@media screen and (max-width: 998px){
+    .mapi__carousel{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-menubar.scrolled .navbar-nav .open .dropdown-menu>li>a {
+        color: #636363;
+    }
+
+    .nav-menubar.scrolled .navbar-nav .open .dropdown-menu>li>a:active {
+        color: #000000;
+    }
+
+    .client-logos {
+        width: 80px;
+    }
+}

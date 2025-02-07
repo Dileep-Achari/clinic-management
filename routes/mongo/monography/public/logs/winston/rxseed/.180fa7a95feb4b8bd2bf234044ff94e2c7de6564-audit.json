@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "/var/www/html/doc9/node/api_v1/routes/mongo/monography/public/logs/winston/rxseed/.180fa7a95feb4b8bd2bf234044ff94e2c7de6564-audit.json",
+    "files": [
+        {
+            "date": 1729103947809,
+            "name": "/var/www/html/doc9/node/api_v1/routes/mongo/monography/public/logs/winston/rxseed/17-Oct-2024.log",
+            "hash": "75b0c963149eb290630ffc74a5ed0baf"
+        },
+        {
+            "date": 1729189914211,
+            "name": "/var/www/html/doc9/node/api_v1/routes/mongo/monography/public/logs/winston/rxseed/18-Oct-2024.log",
+            "hash": "b8511517dd503eb62b9f4d51630af356"
+        }
+    ]
+}

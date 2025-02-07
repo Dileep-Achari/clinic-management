@@ -1,0 +1,118 @@
+﻿
+    <style>
+        @media print {
+            body {
+                font-size: 13pt;
+                font-family: Times New Roman!important;
+                padding: 0;
+                margin: 0
+            }
+            div,
+            p,
+            span,
+            td {
+                font-size: 13pt!important
+            }
+        }
+        
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box
+        }
+        
+        body {
+            font-size: 13pt;
+            font-family: Times New Roman!important;
+            padding: 0;
+            margin: 0
+        }
+        
+        div,
+        h1,
+        h2,
+        h3,
+        p,
+        span {
+            padding: 0;
+            margin: 0
+        }
+        
+        td {
+            vertical-align: top
+        }
+        
+        p {
+            text-align: justify
+        }
+        
+        div,
+        p,
+        span,
+        td {
+            font-size: 13pt;
+            font-family: Times New Roman!important
+        }
+        
+        .footer {
+            border-top: 0 solid #000
+        }
+        
+        .pdfffoter {
+            padding: 10px 0 0 0;
+            border-top: 0 solid #000;
+            margin: 0
+        }
+        
+        .pdfffoter table {
+            font-size: 13pt
+        }
+        
+        .pfooter {
+            padding: 5px 0 5px 0
+        }
+    </style>
+    <div class="footer">
+        <div id="divDisclaimer" style="display:block;">
+            <span id="Label4" class="myfont" style="text-decoration: underline;
+                        font-size:11pt">Disclaimer:</span>
+            <span id="lbldissimilar" class="myfont" style="font-weight:normal;font-size: 11pt;">
+                Radiological imaging diagnosis is based on the interpretation of various
+                shadows produced by normal and abnormal tissues. Dissimilar diverse
+                diseases produce similar shadows. Hence this report represents only some
+                of the various possibilities. Variables known and unknown do exist.
+                Ultrasound findings should always be considered and correlated with
+                clinical, laboratory and other imaging findings. This is an expert
+                professional opinion and is not suitable for medico-legal purpose.
+            </span>
+
+        </div>
+        <div style="vertical-align:top;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="pdfffoter">
+                <tbody>
+                    <tr>
+                        <td style="font-size: 12pt; vertical-align:top;">
+                            <span style="padding-right: 25px">
+                                Release Date :
+                                <span id="lblreportdtFoot">11-Jun-2020 11:46</span>
+                            </span>
+                        </td>
+                        <td style="font-size: 12pt; display:none">
+                            <span id="nabllbl" style="float: right; font-weight: bold;">NABL Accredited</span>
+                        </td>
+                        <td>
+                            <div style="height:40px; overflow:hidden; margin-top:-5px; float:right; width:250px; position: relative; ">
+                                <img id="Barcodeval1" style="height:80px; width:250px; position: absolute;top: -20px;" src="https://barcode.tec-it.com/barcode.ashx?data=10200000266">
+                            </div>
+
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <span style="color: #444;">{{page}}</span>/<span>{{pages}}</span>
+        </div>
+       
+    </div>

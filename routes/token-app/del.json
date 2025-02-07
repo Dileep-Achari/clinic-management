@@ -1,0 +1,46 @@
+[
+    {
+        "userId":4205,
+        "userName":"Somesh P",
+        "roleType":"OPERATER",
+        "includes": ["REG", "PHARMA","LAB"],
+        "status":"",
+        "password":"abc123",      
+        "counter":""
+    },
+    {
+        "userId":4206,
+        "userName":"Ganesh Vera venkata",
+        "roleType":"OPERATER",
+        "includes": ["REG", "PHARMA"],
+        "status":"",
+        "password":"abc123",         
+        "counter":""
+    },
+    {
+        "userId":4207,
+        "userName":"Divya G",
+        "roleType":"OPERATER",
+        "includes": ["REG"],
+        "status":"",
+        "password":"abc123",        
+         "counter":""
+    },
+    {
+        "userId":4208,
+        "userName":"Ramara Rao N",
+        "roleType":"OPERATER",
+        "includes": ["REG", "PHARMA"],
+        "status":"",
+        "password":"abc123",        
+        "counter":""
+    },
+    {
+        "userId":4209,
+        "userName":"Pawan Kalyan P",
+        "roleType":"OPERATER",
+        "includes": ["PHARMA"],
+        "status":"",
+        "password":"abc123",         
+        "counter":""
+    }]

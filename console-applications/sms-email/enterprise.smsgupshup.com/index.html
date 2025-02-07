@@ -1,0 +1,1020 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-language" content="en-us">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Enable engaging conversations seamlessly across 30+ channels using a Single API - Gupshup.io</title>
+    <meta name="description" content="Single API for all your messaging needs - Use GupShup's Messaging API and build seamless conversational experiences across 30+ channels.">
+    <meta name="url" content="https://enterprise.smsgupshup.com/channels/messaging-api">
+    <link rel="canonical" href="https://enterprise.smsgupshup.com/channels/messaging-api"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="/./thirdparty/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--
+<link href="/EntWebRoot/./css/non-responsive990c1c2ec30094b3a1d58738460134ff108c1631.css" rel="stylesheet">
+-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/./thirdparty/bootstrap/js/html5shiv.js"></script>
+    <script type="text/javascript" src="/./thirdparty/bootstrap/js/respond.min.js"></script>
+    <style>.container{width:970px !important;}</style>
+<![endif]-->
+    <link rel="icon" type="image/png" href="/EntWebRoot/./images/theme/favicon990c1c2ec30094b3a1d58738460134ff108c1631.png">
+    <!-- Version 3 stylesheets 2018 -->
+    <link type="text/css" rel="stylesheet" href="/EntWebRoot/./css/theme/v3/base990c1c2ec30094b3a1d58738460134ff108c1631.css">
+    <link type="text/css" rel="stylesheet" href="/EntWebRoot/./css/theme/v3/style990c1c2ec30094b3a1d58738460134ff108c1631.css">
+    <link type="text/css" rel="stylesheet" href="/EntWebRoot/./css/messaging-api990c1c2ec30094b3a1d58738460134ff108c1631.css">
+    <link type="text/css" rel="stylesheet" href="/EntWebRoot/./css/footer990c1c2ec30094b3a1d58738460134ff108c1631.css">
+    <link type="text/css" rel="stylesheet" href="/EntWebRoot/./css/staticheader990c1c2ec30094b3a1d58738460134ff108c1631.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top nav-menubar no-scroll">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-mobile-menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo-wrap" href="/index" title="Home"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="collapse-mobile-menu">
+      <ul class="nav navbar-nav navbar-right main-menu">
+        
+        <li><a href="/messaging-api">Messaging API</a></li>
+        <li class="dropdown products one">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Channels <i class="products-caret caret-icon"></i></a>
+            <ul class="dropdown-menu products-menu">
+              <li><a href="/channels/whatsapp-business" title="WhatsApp Business"><img src="/EntWebRoot/./images/channels/icons/ic-whatsapp990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="WhatsApp Business logo" title="WhatsApp Business" class="channel-icon" /> WhatsApp </a></li>
+              <li><a href="/channels/instagram" title="Instagram"><img src="/EntWebRoot/./images/channels/icons/ic-instagram990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="Instagram logo" title="Instagram" class="channel-icon" /> Instagram</a></li>
+              <li><a href="/channels/sms" title="SMS"><img src="/EntWebRoot/./images/channels/icons/ic-sms990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="SMS logo" title="SMS" class="channel-icon" /> SMS</a></li>
+              <li><a href="/channels/rcs" title="RCS"><img src="/EntWebRoot/./images/channels/icons/ic-rcs990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="RCS logo" title="RCS" class="channel-icon" /> RCS</a></li>
+              <li><a href="/channels/google-business-messages" title="GBM"><img src="/EntWebRoot/./images/channels/icons/ic-gbm990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="GBM logo" title="GBM" class="channel-icon" /> GBM</a></li>
+              <li><a href="/channels/gip-messaging-service" title="Gupshup IP (GIP)"><img src="/EntWebRoot/./images/channels/icons/ic-gip990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="Gupshup IP (GIP) logo" title="Gupshup IP (GIP)" class="channel-icon" /> Gupshup IP (GIP)</a></li>
+              <li><a href="/channels/telegram" title="Telegram"><img src="/EntWebRoot/./images/channels/icons/ic-telegram990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="Telegram logo" title="Telegram" class="channel-icon" /> Telegram</a></li>
+            </ul>
+        </li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+        
+        
+          <li><a href="/login" title="Login">Login</a></li>
+          <li><a href="/signup" class="btn-nav-signup" title="Signup">Signup</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<div class="row mapi__carousel">
+    <div class="mapi__carousel--banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div id="mapi-carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="container">
+                                    <div class="row align-centered">
+                                        <div class="col-lg-7 col-md-7 col-xs-12">
+                                            <div class="black mapi__carousel--heading">Enable engaging conversations seamlessly across 30+ channels using a Single API</div>
+                                            <p class="mapi__carousel--content">Acquire, Engage and Retain customers using Gupshup's Smart Messaging platform for all your business
+                                                messaging needs</p>
+                                            <a href="/signup" class="button btn-blue-filled">Start for Free</a>
+                                            <a href="#scrollToTalkToSales" class="scroll-next button btn-blue ml10">Talk to Sales</a>
+                                        </div>
+                                        <div class="col-lg-5 col-md-5 col-xs-12 text-center">
+                                            <img src="/EntWebRoot/./images/messaging-api/banner990c1c2ec30094b3a1d58738460134ff108c1631.gif"
+                                                 alt="Enable engaging Conversations seamlessly across 30+ Channels using a Single API Banner Image"
+                                                 title="Enable engaging Conversations seamlessly across 30+ Channels using a Single API" class="mapi-banner"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="blue-pattern ptb25">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="client-logos">
+                    <img class="img-responsive" src=" /EntWebRoot/./images/theme/v3/clients/facebook990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by Facebook"
+                         title="Facebook">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/whatsapp990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by Whatsapp"
+                         title="Whatsapp">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/twitter990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by Twitter"
+                         title="Twitter">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/google990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by Google"
+                         title="Google">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/citibank990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by Citibank"
+                         title="Citibank">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/hsbc990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by HSBC" title="HSBC">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/khanacademy990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by Khan Academy"
+                         title="Khan Academy">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/walmart990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by walmart"
+                         title="Walmart">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/ola990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by OLA" title="OLA">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/oyo990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by OYO" title="OYO">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/unilever990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by Uniliver"
+                         title="Uniliver">
+                </div>
+                <div class="client-logos">
+                    <img class="img-responsive" src="/EntWebRoot/./images/theme/v3/clients/dishtv990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Trusted by Dishtv"
+                         title="Dishtv">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-xs-12 text-center col-md-offset-2 col-lg-offset-2">
+                <div class="customers__count">
+                    <img src="/EntWebRoot/./images/messaging-api/ic-messages990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="" title="" class="customers__count-img"/>
+                    <h4 class="customers__count--h4">6 B+</h4>
+                    <p class="customers__count--p">messages per month</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-xs-12 text-center">
+                <div class="customers__count">
+                    <img src="/EntWebRoot/./images/messaging-api/ic-messages-counting990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="" title="" class="customers__count-img"/>
+                    <h4 class="customers__count--h4">300 B+</h4>
+                    <p class="customers__count--p">messages &amp; counting</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-xs-12 text-center">
+                <div class="customers__count">
+                    <img src="/EntWebRoot/./images/messaging-api/ic-office990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="" title="" class="customers__count-img"/>
+                    <h4 class="customers__count--h4">39,600+</h4>
+                    <p class="customers__count--p">business &amp; growing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section blue-pattern">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+                <h1 class="tile__heading tile-after">A solution optimized for cost, speed and quality</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="tile__content">
+                    <div class="tile__content--align">
+                        <div class="tile__content--icon">
+                            <img src="/EntWebRoot/./images/messaging-api/ic-customize990c1c2ec30094b3a1d58738460134ff108c1631.svg" title="Customization" alt="Customization Icon"
+                                 width="32"/>
+                        </div>
+                        <h4 class="blue">Customization</h4>
+                    </div>
+                    <p>Easily configurable APIs to seamlessly integrate SMS, Data and Voice messaging into your business flow</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="tile__content">
+                    <div class="tile__content--align">
+                        <div class="tile__content--icon">
+                            <img src="/EntWebRoot/./images/messaging-api/ic-scale990c1c2ec30094b3a1d58738460134ff108c1631.svg" title="Scalability" alt="Scalability Icon"
+                                 width="32"/>
+                        </div>
+                        <h4 class="blue">Scalability</h4>
+                    </div>
+                    <p>Supports horizontal scaling with proven ability to scale up to 10000 TPS steady traffic and potentially unlimited peak traffic at short notice</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="tile__content">
+                    <div class="tile__content--align">
+                        <div class="tile__content--icon">
+                            <img src="/EntWebRoot/./images/messaging-api/ic-security990c1c2ec30094b3a1d58738460134ff108c1631.svg" title="Security &amp; Certification"
+                                 alt="Security &amp; Certification Icon" height="32"/>
+                        </div>
+                        <h4 class="blue">Security &amp; Certification</h4>
+                    </div>
+                    <p>Gupshup is ISO 27001 certified and GDPR compliant company that supports SSL Encryption technique TLS 1.2 256 bit AES.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt25">
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="tile__content">
+                    <div class="tile__content--align">
+                        <div class="tile__content--icon">
+                            <img src="/EntWebRoot/./images/messaging-api/ic-latency990c1c2ec30094b3a1d58738460134ff108c1631.svg" title="Latency &amp; QOS"
+                                 alt="Latency &amp; QOS Icon" width="32"/>
+                        </div>
+                        <h4 class="blue">Latency &amp; QOS</h4>
+                    </div>
+                    <p>Offers one of the lowest latency and superior quality of service within the industry</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="tile__content">
+                    <div class="tile__content--align">
+                        <div class="tile__content--icon">
+                            <img src="/EntWebRoot/./images/messaging-api/ic-operator990c1c2ec30094b3a1d58738460134ff108c1631.svg" title="Operator Connectivity"
+                                 alt="Operator Connectivity Icon" height="32"/>
+                        </div>
+                        <h4 class="blue">Operator Connectivity</h4>
+                    </div>
+                    <p>Provides global reach with a network of international operators across over 225+ countries for enhanced customer service</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="tile__content">
+                    <div class="tile__content--align">
+                        <div class="tile__content--icon">
+                            <img src="/EntWebRoot/./images/messaging-api/ic-reliable990c1c2ec30094b3a1d58738460134ff108c1631.svg" title="Reliability" alt="Reliability Icon"
+                                 height="32"/>
+                        </div>
+                        <h4 class="blue">Reliability</h4>
+                    </div>
+                    <p>Strengthens reliability with 100% component and hardware redundancy and latency based component failover mechanism</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+                <h1 class="tile__heading tile-after">Centralize your customer communication using Single API to reach any popular messaging channel</h1>
+            </div>
+        </div>
+        <div class="row align-centered">
+            <div class="col-lg-7 col-md-7 col-xs-12">
+                <div class="text-center">
+                    <img src="/EntWebRoot/./images/messaging-api/tile-01990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="Single API Illustration" title="Single API"
+                         class="img-mapi-responsive"/>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-xs-12">
+                <div class="tile__content mb25">
+                    <h4 class="black">Auto Intelligent Routing</h4>
+                    <p>Optimized message delivery across channels and carriers with built-in Auto Intelligent Routing.</p>
+                </div>
+                <div class="tile__content mb25">
+                    <h4 class="black">Auto Template Translation</h4>
+                    <p>Deliver rich personalized content to every customer as per individual and regional preferences with auto-translate template messages.</p>
+                </div>
+                <div class="tile__content mb25">
+                    <h4 class="black">Rich Conversational Messaging</h4>
+                    <p>Enable conversational workflows to drive customer engagement and loyalty by sending and receiving rich media like images, videos, geo-location and
+                        documents.</p>
+                </div>
+                <div class="tile__content">
+                    <h4 class="black">User Preference Management</h4>
+                    <p>Capture and manage customer's opt-in preferences, content preferences & channel preferences to deliver meaningful customer experiences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="video" class="section blue-pattern">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div class="tile__heading tile-after">Build Engaging Conversational Experiences with our Messaging API</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <div class="content youtube-video">
+                    <iframe src="https://www.youtube.com/embed/UaLo3HQqDVU" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+			<h1 class="tile__heading tile-after">Engage customers through seamless automation and start building solutions with our Messaging API</h1>
+		</div>
+	</div>
+	<div class="row mt25">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+			<div class="benefits">
+				<img class="benefits-img" src="/EntWebRoot/./images/channels/ic-global990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="Global reach with enterprise reliability Icon" title="Global reach with enterprise reliability" />
+				<h4 class="benefits-title">Global reach with<br/>enterprise reliability</h4>
+				<p class="benefits-content">Help enterprises engage across channels worldwide with direct carrier connections.</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+			<div class="benefits">
+				<img class="benefits-img" src="/EntWebRoot/./images/channels/ic-channels990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="One platform, multiple channels Icon" title="One platform, multiple channels" />
+				<h4 class="benefits-title">One platform,<br/>multiple channels</h4>
+				<p class="benefits-content">A single API to access every communication channel your customers use.</p>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+			<div class="benefits">
+				<img class="benefits-img" src="/EntWebRoot/./images/channels/ic-support990c1c2ec30094b3a1d58738460134ff108c1631.svg" alt="World-class support and Regulatory Compliance Icon" title="World-class support and Regulatory Compliance" />
+				<h4 class="benefits-title">World-class support and<br/>Regulatory Compliance</h4>
+				<p class="benefits-content">24/7 support for you and your team built for international laws and regulations.</p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<section class="section blue-pattern" id="scrollToTalkToSales">
+    
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-xs-12 text-center">
+			<h1 class="tile__heading tile-after">Talk to the experts</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="" id="success-alert"></div>
+		<form name="contactusForm" id="contactusForm" action="" method="post">
+			<div class="row">
+				<div class="form-group col-md-4 mb-3">
+					<label for="First_Name">First Name</label>
+					<input type="text" name="First_Name" class="form-control" placeholder="First Name" id="First_Name"/>
+					</div>
+				<div class="form-group col-md-4 mb-3">
+					<label for="Last_Name">Last Name</label>
+					<input type="text" name="Last_Name" class="form-control" placeholder="Last Name" id="Last_Name"/>
+				</div>
+				<div class="form-group col-md-4 mb-3">
+					<label for="phone">Phone Number</label>
+					<input type="text" name="Phone" id="phone" class="form-control" placeholder="Phone Number" maxlength="16"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-md-4 mb-3">
+					<label for="email">Email Address</label>
+					<input type="email" name="Email" id="email" class="form-control" placeholder="Email Address" />
+				</div>
+				<div class="form-group col-md-4 mb-3">
+					<label for="service">Product of Interest</label>
+					<select name="Department" id="service" class="form-control" >
+						<option value="">Select Product of Interest</option>
+						<option value="WhatsApp">WhatsApp</option>
+						<option value="SMS">SMS</option>
+						<option value="RCS">RCS</option>
+						<option value="Google Business Message">Google Business Message</option>
+						<option value="Voice">Voice</option>
+						<option value="Email">Email</option>
+						<option value="GIP">GIP</option>
+						<option value="Telegram">Telegram</option>
+						<option value="Instagram ">Instagram </option>
+						<option value="Omni-channel">Omni-channel</option>
+						<option value="Others">Others</option>
+					</select>
+				</div>
+				<div class="form-group col-md-4 mb-3">
+					<label for="company">Company Name</label>
+					<input type="text" name="Company" id="company" class="form-control" placeholder="Company Name" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-md-4 mb-3">
+					<label for="country">Select Country</label>
+					<select name="Country" id="country" class="form-control" >
+						<option value="">Select Country</option>
+					</select>
+				</div>
+				<div class="form-group col-md-4 mb-3">
+					<label for="state">Select State</label>
+					<select name="State" id="state" class="form-control" onchange="populateCities('state', 'city')">
+						<option value="">Select State</option>
+					</select>
+				</div>
+				<div class="form-group col-md-4 mb-3">
+					<label for="city">Select City</label>
+					<select name="City" id="city" class="form-control" >
+						<option value="">Select City</option>
+					</select>
+				</div>
+				<div class="form-group col-md-4 mb-3 col-lg-offset-4 col-md-offset-4">
+					<label for="userIndustry">Select Industry</label>
+					<select name="Industry" id="userIndustry" class="form-control" >
+					<option value="">Select Industry your Organization Belongs To</option>
+						
+						<option value="Banking, Financial and Insurance Services">Banking, Financial and Insurance Services</option>
+						
+						<option value="e-Commerce">e-Commerce</option>
+						
+						<option value="Education">Education</option>
+						
+						<option value="Payment Services">Payment Services</option>
+						
+						<option value="Information Technology and Services">Information Technology and Services</option>
+						
+						<option value="Media, Gaming and Entertainment">Media, Gaming and Entertainment</option>
+						
+						<option value="Travel, Tourism and Hospitality">Travel, Tourism and Hospitality</option>
+						
+						<option value="Healthcare and Wellness">Healthcare and Wellness</option>
+						
+						<option value="Retail and Logistics">Retail and Logistics</option>
+						
+						<option value="Government">Government</option>
+						
+						<option value="Others">Others</option>
+						
+					</select>
+				</div>
+				<input type="hidden" name="Lead_Source" value="Enterprise Lead form">
+				<input type="hidden" name="Lead_Status" value="New">
+				<input type="hidden" name="Source" value="Messaging API">
+			</div>
+			<div class="row">
+				<div class="form-group text-center">
+					<div class="col-md-12 mb-3 text-center">
+						<div class="g-recaptcha" data-sitekey="6LdyBqwUAAAAAGl8_zEj3ksWwoDPYH3DUb4VXJhH" style="display: inline-block;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-md-4 col-lg-offset-4 col-md-offset-4">
+					<button type="submit" class="button btn-orange br25" onClick="GupShup.html.loginPage.sendContactForm();" style="width: 100%;">Send</button>
+				</div>
+			</div>
+		</form>
+		</div>
+		<script src="https://www.google.com/recaptcha/api.js" async defer> </script>
+	</div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+<footer class="ms-footer footer__block">
+    <div class="container footer__block--sep">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-xs-12">
+                <img class="img-responsive footer-logo" src="/EntWebRoot/./images/theme/v3/logo990c1c2ec30094b3a1d58738460134ff108c1631.png" alt="Gupshup" />
+                <div class="ms-copyright">Gupshup &copy; 2021. All Right Reserved.</div>
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-xs-12">
+                <ul>
+                    <li class="">
+                        <a href="/about">About Us</a>
+                    </li>
+                    <li class="ms-dot">&middot;</li>
+                    
+                    <li class="">
+                        <a href="/terms" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
+                            
+                    <li class="ms-dot">&middot;</li>
+                    
+                    </li>
+                    
+                    <li class="">
+                        <a href="/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                            
+                    <li class="ms-dot">&middot;</li>
+                    
+                    </li>
+                    
+                    <li class="">
+                        <a href="/../help/in/index.html" target="_blank" rel="noopener noreferrer">Help Document</a>
+                            
+                    <li class="ms-dot">&middot;</li>
+                    
+                    </li>
+                    
+                    <li class="">
+                        <a href="/../help/in/gupshup-documents.html" target="_blank" rel="noopener noreferrer">API</a>
+                            
+                    <li class="ms-dot">&middot;</li>
+                    
+                    </li>
+                    
+                    <li class="">
+                        <a href="/tools" target="_blank" rel="noopener noreferrer">Number Info</a>
+                            
+                    </li>
+                    
+                    <li class="ms-dot">&middot;</li>
+                    <li class="">
+                        <a href="/DLT">DLT</a>
+                    </li>
+                    <li class="ms-dot">&middot;</li>
+                    <li class="">
+                        <a href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="/./thirdparty/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/./thirdparty/yui/json/json-min.js"></script>
+<script type="text/javascript" src="/./thirdparty/yui/connection/connection-min.js"></script>
+<script type="text/javascript" src="/WebCommon/./js/gupshup990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+//Srings in bulkupload related js
+GupShup.labels.bulkUpload = {};
+GupShup.labels.bulkUpload.selectBtnStr = "Select File";
+GupShup.labels.bulkUpload.uploadingStr = "Uploading";
+GupShup.labels.bulkUpload.cancelBtnStr = "Cancel";
+GupShup.labels.bulkUpload.uploadAndPostBtnStr = "Upload And Post";
+//Srings in enterprise messages js
+GupShup.labels.ent = {};
+GupShup.labels.ent.errMessages = {};
+GupShup.labels.ent.errMessages.updatePageOnAjaxFailure = "Something went wrong while talking with our servers. Most likely its a communication issue. Please try again in a while!";
+GupShup.labels.ent.errMessages.activationCodeMissmatch = "The activation code you entered does not match the code sent to your phone.";
+GupShup.labels.ent.errMessages.activationMaxlimitReached = "You cannot activate your account as you have reached the limit. Please contact ";
+GupShup.labels.ent.errMessages.activationCodeExpired = "The activation code sent to you is expired. Please contact ";
+GupShup.labels.ent.errMessages.manageMembersAddNoMembers = "No members to add.";
+GupShup.labels.ent.errMessages.manageMembersAddSuccess  = "Successfully added {0} members.";
+GupShup.labels.ent.errMessages.manageMembersAddDuplicate = "{0} numbers are already members of group and have not been processed.";
+GupShup.labels.ent.errMessages.manageMembersAddFailure = "{0} numbers were invalid and have not been processed.";
+GupShup.labels.ent.errMessages.manageMembersAddInsufficientBalance = "Greeting messages not sent due to insufficient balance.";
+GupShup.labels.ent.errMessages.manageMembersRemoveNoMembers = "No members to remove.";
+GupShup.labels.ent.errMessages.manageMembersRemoveSuccess = "Successfully removed {0} members.";
+GupShup.labels.ent.errMessages.manageMembersRemoveDuplicate = "{0} numbers were not members of group and have not been processed.";
+GupShup.labels.ent.errMessages.manageMembersRemoveFailure = "{0} numbers were invalid and have not been processed.";
+GupShup.labels.ent.errMessages.invalidUserId = "User Id is not valid. Please enter a valid User Id.";
+GupShup.labels.ent.errMessages.closureStageGaveUp = "You have selected Closure State as 'Gave up/order lost'. <br> If you proceed with this selection, you won't be able to view or edit the details of this prospect.";
+GupShup.labels.ent.errMessages.easyPostSuccess = "Your messages will be sent shortly subject to Current Status of your account.";
+GupShup.labels.ent.errMessages.easyPostFailure = "some error in sending message";
+GupShup.labels.ent.errMessages.confirmCloseWhileFileUpload = "Leaving this page now would stop the uploading of file. <br> Do you wish to leave?";
+GupShup.labels.ent.errMessages.sessionExpired = "Your session has expired. Please <a href='GupShup.conf.contextPath/index'>click here</a> to re-login.";
+GupShup.labels.ent.errMessages.swfuploadConnectionError = "Oops there seems to be a network error (error code : U{0}). Please check the Upload history before retrying. In case of any question contact customer support ";
+GupShup.labels.ent.errMessages.swfuploadGenericError = "Oops there seems to be an internal error (error code : U{0}). Please check the Upload history before retrying. In case of any question contact customer support ";
+GupShup.labels.ent.errMessages.postingHoursError = "You are allowed to post only between 9AM to 9PM.";
+GupShup.labels.ent.errMessages.fileNotinQ = "Please select file.";
+GupShup.labels.ent.errMessages.tmplNotSelected = "Please select template.";
+GupShup.labels.ent.errMessages.tmplInputError = "Please Enter value.";
+GupShup.labels.ent.errMessages.tmplInputLimitError = "Max character limit is 20 character.";
+GupShup.labels.ent.errMessages.emptyMessage = "Message is empty.";
+GupShup.labels.ent.errMessages.charLimitError = "Max character limit is {0}";
+GupShup.labels.ent.errMessages.selectGroupToPost = "Please select the groups to post.";
+GupShup.labels.ent.errMessages.enterGroupName = "Please enter a Mailing List name.";
+GupShup.labels.ent.errMessages.selectGroupToDisable = "Please select the groups to disable.";
+GupShup.labels.ent.errMessages.alertDisableGroups = "Are you sure you want to disable the selected groups?";
+GupShup.labels.ent.errMessages.alertDisableGroup = "Are you sure you want to disable the group?";
+GupShup.labels.ent.errMessages.selectDeleteGroups = "Please select the groups to delete.";
+GupShup.labels.ent.errMessages.alertDeleteGroups = "Are you sure you want to delete the selected groups?";
+GupShup.labels.ent.errMessages.alertDeleteGroup = "Are you sure you want to delete the selected group?";
+GupShup.labels.ent.errMessages.selectEnableGroups = "Please select the groups to enable.";
+GupShup.labels.ent.errMessages.emptyKeyword = "Keyword cannot be blank";
+GupShup.labels.ent.errMessages.unsetKeywordSuccess = "Keyword successfully unset for the group";
+GupShup.labels.ent.errMessages.keywordWithoutSpace = "Keyword cannot have spaces in it.";
+GupShup.labels.ent.errMessages.keywordWithoutSpecChar = "Keyword should not contain special characters.";
+GupShup.labels.ent.errMessages.asciiKeyword = "Keyword should not contain non ascii values.";
+GupShup.labels.ent.errMessages.keywordLengthLimit = "Keyword length should be between 3 and 10 characters.";
+GupShup.labels.ent.errMessages.fileNotFound = "Could not locate the file you requested. Please try again in a while. If the problem persists please contact support.";
+GupShup.labels.ent.errMessages.notAuthorisedForReqFile = "The file you have requested doesn't seem to belong to you. Please contact support.";
+GupShup.labels.ent.errMessages.internalError = "Something went wrong while executing your request. Please try again in a while. If the problem persists please contact support.";
+GupShup.labels.ent.errMessages.scheduledTime = "Scheduled time occurs in past. The messages will be sent immediately.";
+GupShup.labels.ent.errMessages.scheduledTimeVoice = "ent.errMessages.scheduled.time.voice";
+
+GupShup.labels.ent.errMessages.selectMaskToUpdateMapping = "Please select a mask to update mapping.";
+GupShup.labels.ent.errMessages.enterKeywordGroupName = "Please enter a Keyword Group name.";
+GupShup.labels.ent.errMessages.validStartDate = "Please enter a valid start date.";
+GupShup.labels.ent.errMessages.validEndDate = "Please enter a valid end date.";
+GupShup.labels.ent.errMessages.invalidPhoneCode = "Invalid Phone Code selected.";
+GupShup.labels.ent.errMessages.SMSAccessDisabled= "SMS access has been disabled for the group.";
+GupShup.labels.ent.errMessages.SMSAccessEnabled= "SMS access has been enabled for the group.";
+GupShup.labels.ent.errMessages.validPhone= "Please enter a valid phone number.";
+GupShup.labels.ent.errMessages.numSuccessfullyAdded= "Number successfully added to access list";
+GupShup.labels.ent.errMessages.numSuccessfullyRemoved= "Number successfully removed from list";
+
+GupShup.labels.ent.errMessages.enterOneKeyword = "Please enter atleast one Keyword with Phone Code";
+GupShup.labels.ent.errMessages.responseTime = "One of the response type need to be selected.";
+GupShup.labels.ent.errMessages.invalidResponse = "Invalid Response call back URL.";
+GupShup.labels.ent.errMessages.validNumber= "Please enter a valid number";
+GupShup.labels.ent.errMessages.numberLimitExceeded = "Mobile number limit exceeded. Only {0} numbers allowed.";
+GupShup.labels.ent.errMessages.correctNumberFormat = "One or more phone numbers are incorrectly entered. Please enter in this format. 9898989898,9797979797...";
+GupShup.labels.ent.errMessages.internationalNumber = "International number should start with &quot;00&quot;";
+GupShup.labels.ent.errMessages.messageSend = "Messages sent to {0} phone numbers.";
+GupShup.labels.ent.errMessages.maxSMSLimit = "Max limit";
+GupShup.labels.ent.errMessages.minSMSLimit= "Min limit";
+GupShup.labels.ent.errMessages.selectCorrectFile= "Please select a MS Excel 97/2000/XP/2010 or txt or csv file to upload.";
+GupShup.labels.ent.errMessages.selectSureToCancelFile= "Are you sure you want to cancel the selected file";
+GupShup.labels.ent.errMessages.selectCorrectFileForBulkMessaging= "Please upload valid .xls or .xlsx or .csv or .txt or .zip or .7z file.";
+
+//Validation str
+GupShup.labels.validation = {};
+GupShup.labels.validation.msg = {};
+GupShup.labels.validation.msg.invalidGsmMask = "Sucessfully sent message.";
+GupShup.labels.validation.msg.mandatoryInfo = "This information is mandatory.";
+GupShup.labels.validation.msg.validContactPersoneName = "Please provide a contact person name.";
+GupShup.labels.validation.msg.validAsciiContactPersoneName = "Please use english characters only in the contact person name field.";
+GupShup.labels.validation.msg.validAlphaCharContactPersoneName = "Name should include alphabetic characters.";
+GupShup.labels.validation.msg.validAsciiLoginId = "Please use english characters only in the contact Login Id field.";
+GupShup.labels.validation.msg.invalidLoginId = "Invalid Login Id.";
+GupShup.labels.validation.msg.validMobileNo = "Please provide a valid mobile number.";
+GupShup.labels.validation.msg.validAsciiEmailId = "Please use english characters only in the email address";
+GupShup.labels.validation.msg.validEmailId= "Please provide a valid email address";
+GupShup.labels.validation.msg.validAsciiCompanyName = "Please use english characters only in the company name field.";
+GupShup.labels.validation.msg.validAlphaCompanyName = "Company name should include alphabetic characters.";
+GupShup.labels.validation.msg.validAsciiCompanyAddress = "Please use english characters only in the company address field.";
+GupShup.labels.validation.msg.companyAddressLengthLimit = "Company name should include alphabetic characters.";
+GupShup.labels.validation.msg.validCity = "Please provide a valid city.";
+GupShup.labels.validation.msg.validAsciiCity = "Please use english characters only in the city field.";
+GupShup.labels.validation.msg.validAlphaCity = "City should include alphabetic characters.";
+GupShup.labels.validation.msg.validSelectState = "Please select a state.";
+GupShup.labels.validation.msg.validPincode = "Please provide a valid pincode.";
+GupShup.labels.validation.msg.validMobileOrLandline = "Provide either a landline or a mobile number.";
+GupShup.labels.validation.msg.validLandline = "Provided land line number is invalid. Please leave it empty or provide a valid number.";
+GupShup.labels.validation.msg.validFax = "Provided fax number is invalid. Please leave it empty or provide a valid number.";
+GupShup.labels.validation.msg.validURL = "Please provide a valid url.";
+GupShup.labels.validation.msg.validSelectIndustry = "Please select a industry.";
+GupShup.labels.validation.msg.validSelectTraiCategory = "Please select a Category of messages";
+GupShup.labels.validation.msg.validMsgNo = "validation.msg.valid.messages.number";
+GupShup.labels.validation.msg.enterMsgNo = "Please enter No of Messages.";
+GupShup.labels.validation.msg.enterSMSRate = "Please enter SMS Rate.";
+GupShup.labels.validation.msg.validSMSRate = "validation.msg.valid.sms.rate";
+GupShup.labels.validation.msg.typeCaptchaCode = "Please type 6 letter text you see in picture above.";
+GupShup.labels.validation.msg.dateOfConfirmation = "Date of confirmation should be either current date or future date";
+GupShup.labels.validation.msg.errorInField = "One or more fields have errors marked in red. Please correct those errors and submit again.";
+GupShup.labels.validation.msg.provideNumber = "Please provide a number less than";
+GupShup.labels.validation.msg.selectStatus = "Please select a status.";
+GupShup.labels.validation.msg.selectValidValue = "Please select a valid value.";
+GupShup.labels.validation.msg.statusGaveupOrderlost = "Please select a status different than 'Gave up/order lost";
+GupShup.labels.validation.msg.englishCharacters = "Please use english characters only in the comments field.";
+GupShup.labels.validation.msg.comments = "Comments should not exceed 500 characters.";
+GupShup.labels.validation.msg.invalidCaptchaCode = "Invalid captcha Code.";
+GupShup.labels.validation.msg.checkAvailability = "Could not check availability.";
+GupShup.labels.validation.msg.checkLoginId = "The login id {0} is not available";
+GupShup.labels.validation.msg.isAvailable = " is available";
+GupShup.labels.validation.msg.notAvailable = " is not available";
+GupShup.labels.validation.msg.validActivationCode = "Please enter valid 4 letter activation code sent to you";
+GupShup.labels.validation.msg.validPanNumber = "Please provide a valid PAN number.";
+GupShup.labels.validation.msg.validTanNumber = "Please provide a valid TAN number.";
+GupShup.labels.validation.msg.validAadhaarNumber = "Please provide a valid aadhaar number.";
+GupShup.labels.validation.msg.validBranchName = "Please provide a valid branch name.";
+GupShup.labels.validation.msg.validAccNumber = "Please provide a valid account number.";
+GupShup.labels.validation.msg.validIfsccode = "Please provide a valid ifsc code.";
+GupShup.labels.validation.msg.validNameAsinBankAccount = "Please provide a Name as in banck account.";
+GupShup.labels.validation.msg.validBankName = "Please provide a valid bank number.";
+GupShup.labels.validation.msg.validGstinNumber = "Please provide a valid GSTIN number.";
+GupShup.labels.validation.msg.productName = "Product name should not exceed {0} characters.";
+GupShup.labels.validation.msg.englishCharCommon = "Please use english characters only in the {0} field.";
+GupShup.labels.validation.msg.validAlphaDesignation = "Designation should include alphabetic characters.";
+GupShup.labels.validation.msg.validAsciiDesignation = "Please use english characters only in the contact person designation field.";
+GupShup.labels.validation.msg.validSateCode = "Please provide a valid state code.";
+GupShup.labels.validation.msg.validRegNumber = "Please provide a valid GSTIN registration number.";
+
+GupShup.labels.fileTypesDescription = "Excel, csv and Zip file";
+
+GupShup.labels.enterGsmMask = "Please enter a GSM mask.";
+GupShup.labels.newGsmMask = "The new GSM mask is same as the old one. Please specify different new mask to update.";
+GupShup.labels.enterValidMask = "Please enter valid 10-digit mobile number";
+GupShup.labels.inValidGSMMask = "The mask is invalid, please use different mask and try again. <br> Mask cannot have @~`!#$%^*()|\;':[]{},<>?/ characters. <br> See <a href='GupShup.conf.contextPath/masksHelp' target='_blank'>restrictions on mask names</a> for more information.";
+GupShup.labels.pendingKeywordGroups = "You do not have any Pending Keyword groups.";
+GupShup.labels.expiredKeywordGroups = "You do not have any Expired Keyword groups.";
+
+GupShup.labels.selfJoinGroup = "Your customers can self join this group via SMS";
+GupShup.labels.messageCancel = "Please select the messages to cancel.";
+GupShup.labels.sureToDelete = "Are you sure you want to cancel the selected message?";
+GupShup.labels.enterMessageToSend = "Please enter a message to send.";
+
+//Craete ad
+GupShup.labels.adTextHelpMessageGupshupMask = "The above text will be displayed as ad content on GupShup SMS messages.";
+GupShup.labels.adTextHelpMessageUserCreatedMask = "The above text will be displayed as ad content on GupShup SMS messages.<br> {0} will be used as MASK and the string '(Ad by SMSGupShup)' will be appended to the content";
+GupShup.labels.adTextHelpMessageWithoutMask = "The above text will be displayed as ad content on GupShup SMS messages.";
+GupShup.labels.alreadySentImpressionsGreaterThenMaxAdsNotification = '<h3>Note:</h3>Sorry, You cannot change the total No. of impressions to {0}. {1} impressions of your Ad have already been completed. The total No. of impressions cannot be less than {2}.';
+GupShup.labels.basicAdBudgetString = 'Each Ad Impression will cost you <b><u>{0}</u></b> messages as credit.<br>The total cost for the ad is <b><u>{1}</u></b>  messages and this will be debited from your account.';
+GupShup.labels.basicAdBudgetGraterthanOldBudgetString = 'Each Ad Impression will cost you <b><u>{0}</u></b> messages as credit.<br><br>You have increased the Total No. of Ad impressions from <b>{1}</b> to <b>{2}</b>. Your account had already been debited <b>{3}</b> when you last created/edited this Ad.<br><br>The additional cost of increasing the No. of ad impressions is <b>{4}</b> messages and this will be debited from your account.';
+GupShup.labels.basicAdBudgetLessthanOldBudgetString = 'Each Ad Impression will cost you <b><u>{0}</u></b> messages as credit.<br><br>You have decreased the Total No. of Ad impressions from <b>{1}</b> to <b>{2}</b>. Your account had already been debited <b>(3)</b> when you last created/edited this Ad.<br><br>A Total of <b>{4}</b> messages will be credited to your account.';
+GupShup.labels.confirmationMessage = 'You will be charged <b>{0}</b> messages for this Ad.';
+GupShup.labels.confirmationNetbudgetLessthanZeroMessage = 'You will be charged <b>{0}</b> messages for this Ad.';
+
+GupShup.labels.ent.errMessages.submitButtonError = 'One or more fields have errors marked in red. Please correct those errors and submit again.';
+GupShup.labels.ent.errMessages.adNameBlankError = 'Please provide a Ad name.';
+GupShup.labels.ent.errMessages.adNameEngCharError = 'ent.errMessages.ad.name.engchar.error';
+GupShup.labels.ent.errMessages.adNameLengthLimitError = 'ent.errMessages.ad.name.length.limit.error';
+GupShup.labels.ent.errMessages.adTextBlankError = 'Please provide a Ad Text.';
+GupShup.labels.ent.errMessages.adTextEngCharError = 'Please use english characters only in the Ad Text field.';
+GupShup.labels.ent.errMessages.adTextLengthLimitError = 'Your Ad Text length is greater then allowed length.';
+GupShup.labels.ent.errMessages.adImpressionEmptyError = 'Please enter no. of Impressions.';
+GupShup.labels.ent.errMessages.adImpressionValidNoError = 'Please enter a valid value for No of Impressions.';
+GupShup.labels.ent.errMessages.adImpressionMorethanZeroError = 'No. of Impressions should be more then zero.';
+GupShup.labels.ent.errMessages.startdateNotGreaterThanEndDateError = 'Start date cannot be greater then End date.';
+GupShup.labels.ent.errMessages.enddateNotEarlierThanTodayError = 'End date cannot be earlier then Today.';
+GupShup.labels.ent.errMessages.startdateNotEarlierThanTodayError = 'Start date cannot be earlier then Today.';
+GupShup.labels.ent.errMessages.clickHere = 'messages.stats.click.here';
+
+//Setting JS strings
+GupShup.labels.settingjs = {};
+GupShup.labels.settingjs.validURL = "Please enter valid delivery Url.";
+GupShup.labels.settingjs.groupCreationDisabled = "Group creation through SMS has been disabled";
+GupShup.labels.settingjs.groupCreationEnabled = "Group creation through SMS has been enabled";
+GupShup.labels.settingjs.enterValidPhoneNumber = "Please enter a valid phone number.";
+GupShup.labels.settingjs.numberAddedAccessList = "Number successfully added to access list";
+GupShup.labels.settingjs.numberRemovedAccessList = "Number successfully removed from list";
+GupShup.labels.settingjs.differentEmailid = "Please enter different email id from your existing one";
+
+//Validate JS strings
+GupShup.labels.validatejs = {};
+GupShup.labels.validatejs.keywordGroupNotEmpty = "Keyword group name cannot be empty";
+GupShup.labels.validatejs.specialCharacter = "No special character is allowed in keyword group";
+GupShup.labels.validatejs.startDate = "Start Date can not be empty";
+GupShup.labels.validatejs.startDateNotCorrect = "Start Date is not Correct";
+GupShup.labels.validatejs.endDateNotEmpty = "EndDate can not be empty";
+GupShup.labels.validatejs.endDateNotCorrect = "End Date is not Correct";
+GupShup.labels.validatejs.nonAsciiCharacters = "Keyword group contains non-ASCII characters. Please remove them.";
+GupShup.labels.validatejs.activateDateToday = "Active From date cannot be less than today.";
+GupShup.labels.validatejs.activateDatePrevious = "Active From date cannot be less than previous Active From date.";
+GupShup.labels.validatejs.activateToDateOneMonth = "Active To date should be at least 1 month more than Active From date.";
+GupShup.labels.validatejs.activateFromDate = "Active From date should be within 2 days from today.";
+GupShup.labels.validatejs.activateToDateOneYear = "Active To date should be within one year.";
+GupShup.labels.validatejs.urlDefaultResponse = "At least one of the URL or Default response needs to be selected.";
+GupShup.labels.validatejs.responseUrlEmpty = "Response URL field is empty.";
+GupShup.labels.validatejs.responseUrlHttpHttps = "Response URL field must start with http:// or https://";
+GupShup.labels.validatejs.invalidResponseUrl = "Invalid Response URL.";
+GupShup.labels.validatejs.defaultResponseFeildEmpty = "Default response field is empty.";
+GupShup.labels.validatejs.urlResponseNonascii = "URL response contains non-ASCII characters. Please remove them.";
+GupShup.labels.validatejs.textResponseNonascii = "Text response contains non-ASCII characters. Please remove them.";
+GupShup.labels.validatejs.keywordNotEmpty = "Keyword cannot be empty.";
+GupShup.labels.validatejs.spacesNotAllowed = "Spaces are not allowed in the keyword";
+GupShup.labels.validatejs.keywordMoreThanTwoChar = "Keyword should be more than 2 characters long.";
+GupShup.labels.validatejs.keywordNoSpecialChar = "Keyword should not contain special characters.";
+GupShup.labels.validatejs.keywordNotMoreTenChar = "Keyword should not be more than 10 characters long.";
+GupShup.labels.validatejs.phoneCodeNotsetKeyword = "Phone code is not set for keyword.";
+GupShup.labels.validatejs.keywordNonascii = "Keyword contains non-ASCII chars. Please remove them";
+GupShup.labels.validatejs.keywordAdded = "Keyword already added. Please remove it";
+GupShup.labels.validatejs.keywordExist = "Keyword already exist for given phonecode. Please chose different keyword or phonecode.";
+GupShup.labels.validatejs.fromToDate = "From date should be less than To date.";
+GupShup.labels.validatejs.sureToDelete = "Are you sure you want to delete these keyword groups? You will lose all keywords, incoming data within these groups.";
+GupShup.labels.validatejs.gstinNumberWithStateCode = "The first two digits should be same as state code.";
+GupShup.labels.validatejs.gstinNumberWithPanNumber = "Characters 3-12 should be same as pan number";
+
+//GetPaymentDetails
+GupShup.labels.getpaymentjs = {};
+GupShup.labels.getpaymentjs.chequeNumber = "Please provide a valid cheque number.";
+GupShup.labels.getpaymentjs.bankName = "Please provide a valid bank name.";
+GupShup.labels.getpaymentjs.branchName = "Please provide a valid branch name.";
+GupShup.labels.getpaymentjs.chequeIssueDate = "Please select a valid cheque issue date.";
+GupShup.labels.getpaymentjs.chequeDepositDate = "Please select a valid cheque deposit date.";
+GupShup.labels.getpaymentjs.paymentDate = "Please select a valid payment date.";
+GupShup.labels.getpaymentjs.dealerCode = "Please enter a 12 digit long dealer code.";
+GupShup.labels.getpaymentjs.paymentMode = "Please select payment mode.";
+
+GupShup.labels.activateVerificationCode = "Verification Code sent to your number";
+GupShup.labels.activateSuccessfullyCharged = "The account has been successfully charged with {0} messages.";
+GupShup.labels.activatePaymentRealization = "messages will be credited only on payment realization, typically after 3 working days.";
+
+//MessageStats
+GupShup.labels.msgstatsjs = {};
+GupShup.labels.msgstatsjs.couldNotRetrieveBalance = "Could not retrieve Balance SMS Count.";
+GupShup.labels.msgstatsjs.calculateStatsFromDate = "Please select the date from which the statistics needs to be calculated.";
+GupShup.labels.msgstatsjs.calculateStatsUptoDate = "Please select the date upto which the statistics needs to be calculated.";
+GupShup.labels.msgstatsjs.fromTo = "&quot;TO&quot; date can not be before &quot;FROM&quot; date.";
+GupShup.labels.msgstatsjs.enterTextName = "Please enter {0} to send";
+GupShup.labels.msgstatsjs.useEnglishCharacter = "Please use only english characters in {0} to send";
+GupShup.labels.msgstatsjs.selectOption = "Please select atleast one option";
+GupShup.labels.msgstatsjs.restrictDate = "Please restrict your date range to {0} days";
+GupShup.labels.msgstatsjs.errorMarkedRed = "One or more fields have errors marked in red beside them. Please correct those errors and submit again";
+GupShup.labels.msgstatsjs.postPaid = "messages.stats.account.postpaid";
+
+
+//Voice
+
+GupShup.labels.ent.errMessages.selectMp3Lib = 'voice.str.select.mp3.lib';
+GupShup.labels.ent.errMessages.enterUrl = 'Please enter URL for the file to be uploaded';
+GupShup.labels.ent.errMessages.urlFormat = 'Please enter the URL in the currect format';
+GupShup.labels.ent.errMessages.selectMp3 = 'voice.str.select.mp3';
+GupShup.labels.ent.errMessages.zipContentInvalid = 'voice.str.zip.content.invalid';
+GupShup.labels.ent.errMessages.downloadFile = 'File downloaded successfully';
+GupShup.labels.ent.errMessages.invalidAudio = 'voice.str.invalid.audio';
+GupShup.labels.ent.errMessages.interestedCfMcObd = 'Interested in Call Forwarding? Missed Call Alerts? Outbound Dialling?';
+GupShup.labels.ent.errMessages.invalidFile = 'Please upload a valid .csv or .zip file';
+
+//MOTD
+GupShup.labels.motd = {};
+GupShup.labels.motd.hide = 'ent.commontemp.hide';
+GupShup.labels.motd.show = 'ent.commontemp.show';
+
+//Groups js
+GupShup.labels.groupsjs = {};
+GupShup.labels.groupsjs.showEnableGroupsText = 'ent.groups.show.active';
+GupShup.labels.groupsjs.showDisableGroupsText = 'ent.groups.show.disabled';
+GupShup.labels.groupsjs.showEnableGroupsHeaderText = 'ent.groups.active';
+GupShup.labels.groupsjs.showDisableGroupsHeaderText = 'ent.groups.disabled';
+GupShup.labels.groupsjs.add = 'buttonstr.add';
+GupShup.labels.groupsjs.remove= 'buttonstr.remove';
+
+//AccountDetails
+GupShup.labels.ent.errMessages.postpaidService = 'This is a Postpaid Service';
+GupShup.labels.ent.errMessages.noRecords = 'No Records Available';
+GupShup.labels.ent.errMessages.validUptoCheck = 'Bucket Wise Expiry not Enabled';
+</script>
+
+<!--[if IE 6]>
+<script type="text/javascript">
+GupShup.conf.browserVersion='IE6';
+</script>
+<![endif]-->
+
+<!--[if IE 7]>
+<script type="text/javascript">
+GupShup.conf.browserVersion='IE7';
+</script>
+<![endif]-->
+
+<!--[if IE]>
+<script type="text/javascript">
+GupShup.conf.isIE=true;
+</script>
+<![endif]-->
+<script type="text/javascript" src="/WebCommon/./js/htmlUtils990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+<script type="text/javascript" src="/WebCommon/./js/controls990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+<script type="text/javascript" src="/WebCommon/./js/events990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+<script type="text/javascript" src="/WebCommon/./js/ajax990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+<script type="text/javascript" src="/./thirdparty/jQuery/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="/./thirdparty/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/WebCommon/./js/md5990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+<script type="text/javascript" src="/WebCommon/./js/bottom/messages990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+<script type="text/javascript" src="/EntWebRoot/./js/enterpriseMessages990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+<script type="text/javascript" src="/EntWebRoot/./js/login990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+<script type="text/javascript" src="/EntWebRoot/./js/countriesStatesCities990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+<script type="text/javascript" src="/EntWebRoot/./js/jquery.validate.min990c1c2ec30094b3a1d58738460134ff108c1631.js"></script>
+<script type="text/javascript">
+    GupShup.html.loginPage.initPage();
+    populateCountries("country", "state");
+    $(function () {
+        $(document).scroll(function () {
+            var $nav = $(".navbar-fixed-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+    });
+    $(document).ready(function () {
+        $('.scroll-next').click(function (e) {
+            if (e.currentTarget.hash) {
+                var top = $(e.currentTarget.hash).offset().top;
+                if ($(this.hash).css("padding-top")) {
+                    top = top - parseInt($(e.currentTarget.hash).css("padding-top"));
+                }
+                $('html,body').animate({scrollTop: top}, 1000);
+                return false;
+            }
+            e.preventDefault();
+        });
+    });
+
+    GupShup.conf.contextPath = '';
+    GupShup.conf.urlCheck = 'true';
+    GupShup.conf.sessionId = '92C15F53AABD10B1C071D2DB9DF6C387';
+	if (GupShup.conf.urlCheck)
+{
+GupShup.conf.readUrl = GupShup.conf.contextPath + '/getJsonItems?token=' + "&randomCheck=";
+GupShup.conf.writeUrl = GupShup.conf.contextPath + '/performActions?token=' + "&randomCheck=";
+}
+else
+{
+GupShup.conf.readUrl = GupShup.conf.contextPath + '/getJsonItems?sessionId=' + GupShup.conf.sessionId + "&randomCheck=";
+GupShup.conf.writeUrl = GupShup.conf.contextPath + '/performActions?sessionId=' + GupShup.conf.sessionId + "&randomCheck=";
+}
+</script>
+</html>
+	

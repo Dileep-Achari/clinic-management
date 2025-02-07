@@ -1,0 +1,299 @@
+﻿
+    <style>
+        @media print {
+            body {
+                font-size: 13pt;
+                font-family: Times New Roman!important;
+                padding: 0;
+                margin: 0
+            }
+            div,
+            p,
+            span,
+            td {
+                font-size: 13pt!important
+            }
+        }
+        
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box
+        }
+        
+        body {
+            font-size: 13pt;
+            font-family: Times New Roman!important;
+            padding: 0;
+            margin: 0
+        }
+        
+        .lbltitle {
+            font-size: 15pt!important;
+            font-family: Times New Roman!important;
+            border-top: 1px solid #000
+        }
+        
+        div,
+        h1,
+        h2,
+        h3,
+        p,
+        span {
+            padding: 0;
+            margin: 0
+        }
+        
+        td {
+            vertical-align: top
+        }
+        
+        p {
+            text-align: justify
+        }
+        
+        div,
+        p,
+        span,
+        td {
+            font-size: 13pt;
+            font-family: Times New Roman!important
+        }
+        
+        .divheader,
+        .header {
+            margin: 0;
+            padding: 0px 0 15px 0!important;
+            font-family: Times New Roman!important;
+            position: relative
+        }
+        
+        .divheader img.qrcodeimg {
+            position: absolute;
+            top: 20px;
+            left: 100px;
+            height: 60px;
+            width: 60px;
+            padding: 20px
+        }
+        
+        .lbltitle {
+            font-weight: 700;
+            border-bottom: 4px solid #000;
+            text-align: center;
+            padding-bottom: 0;
+            width: 400px;
+            border-left: 1px solid #000;
+            margin: 0 auto;
+            border-right: 4px solid #000;
+            border-top: 1px solid #000;
+            font-size: 15pt!important;
+            font-family: Times New Roman!important;
+            border-top: 1px solid #000;
+            text-align: center
+        }
+        
+        .lbltitle span {
+            display: block
+        }
+        
+        .pdetails {
+            border-bottom: 1px solid #000;
+            position: relative
+        }
+        
+        .pat-header td {
+            padding: 4px 0
+        }
+        
+        .pat-header td,
+        .pat-header td span {
+            font-size: 15pt;
+            font-family: Times New Roman!important
+        }
+        
+        .col-1 {
+            width: 110px
+        }
+        
+        .col-2,
+        .col-5,
+        .col-8 {
+            width: 10px
+        }
+        
+        .col-3 {
+            width: auto
+        }
+        
+        .col-4 {
+            width: 160px
+        }
+        
+        .col-6 {
+            width: 170px
+        }
+        
+        .col-7 {
+            width: 150px;
+            padding: 0;
+            position: relative
+        }
+        
+        .col-img {
+            width: 100px
+        }
+        
+        .col-9 {
+            width: 210px
+        }
+        
+        .histopathology #HistoData {
+            display: block
+        }
+        
+        #headerimg {
+            width: 100%
+        }
+        
+        .withheader {
+            margin: 0;
+            padding: 110px 0 15px 0!important
+        }
+        
+     
+    </style>
+
+    <div id="HeaderDiv" style="position:relative">
+
+        <div style="padding: 5px  0px 35px  50px; text-align: right;">
+            <span id="lblhdrtxt" style="text-align: right; display: block;">3-6-16 &amp; 17, Street # 19, Lane Opposite Tanishq, Himayathnagar,Hyderabad-500029 <br> Email: info@vijayadiagnostic.com  </span>
+
+        </div>
+
+
+        <div id="Clbltitle" class="lbltitle" style="display: none;">
+            <span id="lblTitle" style="font-weight:bold;"></span>
+        </div>
+        <div class="pdetails">
+            <table width="100%" border="0" cellspacing="0" id="thead" class="pat-header" style="margin-top: 35px">
+                <tbody>
+                    <tr>
+                        <td class="col-1">
+                            Reg. Date
+                        </td>
+                        <td class="col-2">
+                            :
+                        </td>
+                        <td class="col-3">
+                            <span id="lblrcvddt" class="lbl_brd">11-Jun-2020 11:32</span>
+                        </td>
+                        <td id="tdsmcol" class="col-4">
+                            <label id="tdsmcl" style="display:none;">
+
+
+                                Sample Collection
+                            </label>
+                        </td>
+
+                        <td class="col-5">
+                            <label id="tdsmclcol" style="display:none;"> :</label>
+                        </td>
+                        <td class="col-6">
+                            <div id="tdsmcldt">
+                                <span id="lblcolldt" class="lbl_brd" style="display:none;">11-Jun-2020 06:03</span>
+                            </div>
+                        </td>
+
+                        <td rowspan="3" class="col-img"> <img id="imgqrcode" class="qrcodeimg" src="file:///C:/projects/bhupathisir/qrimg.png" style="height:100px; width:100px;"></td>
+
+                    </tr>
+                    <tr>
+                        <td class="col-1">
+                            Name
+                        </td>
+                        <td class="col-2">
+                            :
+                        </td>
+                        <td class="col-3">
+                            <span id="lblCustname" class="lbl_brd" style="font-weight:bold;">Mrs . GEETHA</span>
+                        </td>
+                        <td class="col-4">
+                            Print Date
+                        </td>
+                        <td class="col-5">
+                            :
+                        </td>
+                        <td class="col-6" colspan="2">
+                            <span id="lblprintdt" class="lbl_brd">01-Jun-2021 17:06</span>
+                        </td>
+
+
+
+                    </tr>
+                    <tr>
+                        <td class="col-1">
+                            VID
+                        </td>
+                        <td class="col-2">
+                            :
+                        </td>
+                        <td class="col-3">
+                            <span id="lblcidsid" class="lbl_brd" style="font-weight:bold;">10200000266</span>
+                        </td>
+                        <td class="col-4">
+                            Age / Gender
+                        </td>
+                        <td class="col-5">
+                            :
+                        </td>
+                        <td class="col-6" colspan="2">
+                            <span id="lblage" class="lbl_brd" style="font-weight:bold;">28 Years</span> /
+                            <span id="lblGender" class="lbl_brd" style="font-weight:bold;">Female</span>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="col-1">
+                            Ref.By
+                        </td>
+                        <td class="col-2">
+                            :
+                        </td>
+                        <td class="col-3">
+                            <span id="lblrefdr1" class="lbl_brd">ARUNA REDDY</span>
+                        </td>
+                        <td class="col-4">
+                            Reg. Centre
+                        </td>
+                        <td class="col-5">
+                            :
+                        </td>
+                        <td class="col-6" colspan="2">
+                            <span id="lblreglocation" class="lbl_brd">HIMAYATNAGAR-10</span>
+                        </td>
+                    </tr>
+                    <tr id="trsampletype">
+                        <td id="lblSpltyp" class="col-1" colspan="1" style="display:none;">
+                            Sample Type
+                        </td>
+                        <td id="lblSpcol" class="col-2" style="display:none;">
+                            :
+                        </td>
+                        <td id="lblSp" class="col-3" style="display:none;">
+                            <span id="lblSpecType" class="lbl_brd"></span>
+                        </td>
+                        <td id="lblSRef" class="col-4" style="display:none;">
+                            Ref no.
+                        </td>
+                        <td id="lblSpRef" class="col-5" style="display:none;">
+                            :
+                        </td>
+                        <td id="lblSpltRef" class="col-6" colspan="2" style="display:none;">
+                            <span id="Label10"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>

@@ -1,0 +1,324 @@
+/*
+ * CSS Document
+ * @Author: Mujahid Shaikh
+ * @Date: 2018-05-01
+ */
+a {
+	color: #3498db;
+}
+
+body {
+    background: #fff;
+}
+
+.blue {
+	color: #3498db;
+}
+
+.light-grey, .grey {
+	color: #bcbec0;
+}
+
+.orange {
+	color: #f39c12;
+}
+
+.green {
+	color: #1abc9c;
+}
+
+.white {
+	color: #ffffff;
+}
+
+.black {
+	color: #324759;
+}
+
+.red {
+	color: #a94442;
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+	background-color: transparent
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.25)
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.10), inset 0 -1px 0 rgba(0, 0, 0, 0.07)
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+	background: #e2e2e2;
+	border: 0 none #fff;
+	border-radius: 0
+}
+.button {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0px 20px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    min-width: 100px;
+    line-height: 36px;
+    height: 38px;
+    vertical-align: top;
+}
+.btn-blue {
+    color: #3498db;
+    border: 1px solid #3498db;
+    background-color: #fff;
+}
+.btn-fb-blue {
+	background-color:#0084ff;
+	color:#fff;
+	border: 1px solid #0084ff;
+}
+.btn-blue:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+.btn-orange {
+    background-color: #f39c12;
+    color: #fff;
+    border: 1px solid #f39c12;
+}
+.btn-orange:hover {
+    background-color: #e67e22;
+    color: #fff;
+    border: 1px solid #e67e22;
+    text-decoration: none;
+}
+.btn-green {
+    background-color: #1abc9c;
+    color: #fff;
+    border: 1px solid #1abc9c;
+}
+.btn-green:hover {
+    background-color: #16a085;
+    color: #fff;
+    border: 1px solid #16a085;
+}
+.btn-red {
+    background-color: #e74c3c;
+    color: #fff;
+    border: 1px solid #e74c3c;
+}
+.btn-white {
+	background-color: #fff;
+    color: #324759;
+    border: 1px solid #fff;
+}
+.btn-white:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.btn-red:hover {
+    background-color: #c0392b;
+    color: #fff;
+    border: 1px solid #c0392b;
+}
+.btn-default {
+    color: #35495e;
+    background-color: #fff;
+    border: 1px solid #bcbec0;
+}
+.btn-default:hover {
+    color: #35495e;
+    background-color: #f5f5f5;
+    border: 1px solid #bcbec0;
+    text-decoration: none;
+}
+.btn-blue-filled {
+    color: #fff;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+}
+.btn-blue-filled:hover {
+    background-color: #2980b9;
+    border: 1px solid #2980b9;
+    color: #fff;
+}
+.btn-blue:hover, .btn-blue:focus, .btn-orange:hover, .btn-orange:focus, .btn-green:hover, .btn-green:focus, .btn-blue-filled:hover, .btn-blue-filled:focus {
+    outline: medium none;
+    text-decoration: none;
+}
+.btn-blue:focus{
+	color: #2980b9;
+}
+.btn-orange:focus,.btn-green:focus{
+	color: #fff;
+}
+.btn-blue-filled:focus {
+    color: #fff;
+}
+.btn-login {
+    background-color: #fff !important;
+    color: #f39c12 !important;
+    padding: 10px !important;
+    margin: 12px 0;
+    border-radius: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px !important;
+}
+.mt10 {
+    margin-top: 15px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.ml10 {
+    margin-left: 10px;
+}
+.mt25 {
+    margin-top: 25px;
+}
+.br25 {
+    border-radius: 25px !important;
+}
+.form-control {
+    background-color: #fafafa !important;
+    border: 1px solid #e8e8e8 !important;
+    box-shadow: none;
+    padding: 0 15px !important;
+    border-radius: 2px !important;
+    color: #404040;
+    font-size: 14px !important;
+    height: 38px !important;
+    outline: 0;
+    font-weight: 300;
+}
+.form-control:focus {
+    border-color: #d8d8d8;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.connects .form-control {
+    background-color: #fff !important;
+    width: 185px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.connects .button {
+    width: 185px;
+}
+.modal-dialog.custom-modal {
+    width: 600px;
+    margin-top: 100px;
+}
+.modal-dialog.custom-modal.modal-sm{
+        max-width:480px;
+    }
+.custom-modal .modal-content {
+    padding-bottom: 0;
+    border-radius: 0;
+    border: none;
+}
+.custom-modal .modal-header {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 15px;
+    background: #F0F4F7;
+}
+.custom-modal .modal-title {
+    color: #35495e;
+    font-weight: 700;
+    font-size: 18px;
+}
+.custom-modal .modal-header .close {
+    color: #35495e;
+    opacity: 1;
+    font-size: 26px;
+}
+.custom-modal .modal-body {
+    padding: 20px;
+}
+.custom-modal .modal-footer {
+    border-top: 1px solid #f0f0f0;
+    text-align: center;
+}
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+.media-left, .media>.pull-left {
+    padding-right: 15px;
+}
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+.media-body {
+    width: 10000px;
+}
+.ms-button-primary, .mbtn, .ms-small-button-primary, .facebookStyleButton, .tbButton, input.mbtn, .swfButton {
+    background-color: #f39c12;
+    border: 1px solid #f39c12;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+label.error {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+    text-align: left;
+    font-weight: normal !important;
+    margin-bottom:0px !important;
+}
+
+.notification{
+    font-size:16px;
+    position:relative;
+    padding:5px 5px;
+    margin:0 28px 5px 0;
+    overflow:hidden;
+    width:100%;
+}
+
+.notification p{
+    color:#0374B5;
+    font-size:16px;
+    position:relative;
+    padding:0px;
+    margin:0px;
+    float:right;
+}
+.notification p a{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.notificationGreen{
+    color:GREEN;
+    background-color:#F9F9F9;
+}
+.notificationRed{
+    color:RED;
+    background-color:#F9F9F9;
+}
+.notificationOrange{
+    color:ORANGE;
+    background-color:#F9F9F9;
+}

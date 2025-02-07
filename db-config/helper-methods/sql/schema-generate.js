@@ -1,0 +1,52 @@
+'use strict';
+const appointments = require("../../models/sql/appointments/schema");
+const kdOp = require("../../models/sql/apk/kd/schema");
+const slgOP = require("../../models/sql/apk/slg/schema");
+const appt = require('../../models/sql/apk/appt/schema');
+const doctorApk = require("../../models/sql/apk/doctor/schema");
+const patientPortal = require("../../models/sql/apk/patient-portal/schema");
+const ppv9 = require("../../models/sql/apk/patient-portal-v9/schema");
+const opSmsEmail = require("../../models/sql/console-application/op-sms-email/schema");
+const fbSmsEmail = require("../../models/sql/console-application/fb-sms-email/schema");
+const ipAnalytics = require("../../models/sql/analytics/ip/schema");
+const miscellaneous = require("../../models/sql/miscellaneous/schema");
+const suTv = require("../../models/sql/su-tv/schema");
+const pdfAppt = require("../../models/sql/console-application/pdf/schema");
+const finance = require("../../models/sql/finance/schema");
+const kiosk = require("../../models/sql/kiosk/schema")
+const covidPatient = require("../../models/sql/apk/covid-patient/schema");
+const ydyaCaller = require('../../models/sql/apk/ydya-caller/schema');
+const hl7 = require('../../models/sql/hl7/schema');
+const feedback = require('../../models/sql/feedback/schema');
+const meeydya = require('../../models/sql/apk/mee-ydya/schema');
+const osApi = require('../../models/sql/apk/os-api/schema');
+const Pmg = require('../../models/sql/pmg/schema');
+const Pharmacy = require('../../models/sql/pharmacy/schema');
+
+module.exports = (__module) => {
+    if (__module === "APPOINTMENTS") return appointments;
+    else if (__module === "KD_OP_API") return kdOp;
+    else if (__module === "SLG_OP_API") return slgOP;
+    else if (__module === "APPT_OP_API") return appt;
+    else if (__module === "DOCTOR_APK") return doctorApk;
+    else if (__module === "PATIENT_PORTAL") return patientPortal;
+    else if (__module === "PATIENT_PORTAL_V9") return ppv9;
+    else if (__module === "OP_SMS_EMAIL") return opSmsEmail;
+    else if (__module === "FB_SMS_EMAIL") return fbSmsEmail;
+    else if (__module === "IP_ANALYTICS") return ipAnalytics;
+    else if (__module === "MISCELLANEOUS") return miscellaneous;
+    else if (__module === "SU_TV") return suTv;
+    else if (__module === "PDF_APPT") return pdfAppt;
+    else if (__module === "FINANCE") return finance;
+    else if (__module === "KIOSK") return kiosk;
+    else if (__module === "COVID_PATIENT") return covidPatient;
+    else if (__module === "YDYA-CALLER") return ydyaCaller;
+    else if (__module === "HL7") return hl7;
+	else if (__module === "FEEDBACK") return feedback;
+    //else if (__module === "HL7") return ydyaCaller;
+	else if (__module === "MEEYDYA") return meeydya;
+	else if (__module === "OS_API") return osApi;
+    else if (__module === "PMG") return Pmg;
+    else if (__module === "PHARMACY") return Pharmacy;
+    else return {};
+}

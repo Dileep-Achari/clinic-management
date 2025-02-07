@@ -1,0 +1,1888 @@
+[{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efbf1"
+  },
+  "cd": "MDCT0001",
+  "recStatus": true,
+  "medName": "INJ AVIL 10ML",
+  "isOutside": false,
+  "drugDose": "10",
+  "unitCd": "ML",
+  "unitName": "ML",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.426Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efbf3"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efbf4"
+  },
+  "cd": "MDCT0002",
+  "recStatus": true,
+  "medName": "INJ AUGUPEN 1.2GM",
+  "isOutside": false,
+  "drugDose": "1.2",
+  "unitCd": "GM",
+  "unitName": "GM",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.478Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efbf6"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efbf7"
+  },
+  "cd": "MDCT0003",
+  "recStatus": true,
+  "medName": "TAB AUGUMENTIN 625MG",
+  "isOutside": false,
+  "drugDose": "625",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.483Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efbf9"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efbfa"
+  },
+  "cd": "MDCT0004",
+  "recStatus": true,
+  "medName": "TAB B COMPLEX    1 TAB",
+  "isOutside": false,
+  "drugDose": "1 TAB",
+  "unitCd": "1 TAB",
+  "unitName": "1 TAB",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.488Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efbfc"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efbfd"
+  },
+  "cd": "MDCT0005",
+  "recStatus": true,
+  "medName": "INJ BUSCOPAN 20MG",
+  "isOutside": false,
+  "drugDose": "20",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.492Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efbff"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc00"
+  },
+  "cd": "MDCT0006",
+  "recStatus": true,
+  "medName": "TAB CLINDAMYCIN 300MG",
+  "isOutside": false,
+  "drugDose": "300",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.496Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc02"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc03"
+  },
+  "cd": "MDCT0007",
+  "recStatus": true,
+  "medName": "INJ CLINDAMYCIN 300MG",
+  "isOutside": false,
+  "drugDose": "300",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.500Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc05"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc06"
+  },
+  "cd": "MDCT0008",
+  "recStatus": true,
+  "medName": "INJ CEFLIN (MAGNEX FORTE) 1.5",
+  "isOutside": false,
+  "drugDose": "1.5",
+  "unitCd": "1.5",
+  "unitName": "1.5",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.503Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc08"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc09"
+  },
+  "cd": "MDCT0009",
+  "recStatus": true,
+  "medName": "TAB CETRIZINE 10MG",
+  "isOutside": false,
+  "drugDose": "10",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.507Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc0b"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc0c"
+  },
+  "cd": "MDCT0010",
+  "recStatus": true,
+  "medName": "TAB CEFTUM  500MG",
+  "isOutside": false,
+  "drugDose": "500",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.512Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc0e"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc0f"
+  },
+  "cd": "MDCT0011",
+  "recStatus": true,
+  "medName": "TAB CHYMORALFORTE 1 TAB",
+  "isOutside": false,
+  "drugDose": "1 TAB",
+  "unitCd": "1 TAB",
+  "unitName": "1 TAB",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.515Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc11"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc12"
+  },
+  "cd": "MDCT0012",
+  "recStatus": true,
+  "medName": "TAB COUMERIN 200MG",
+  "isOutside": false,
+  "drugDose": "200",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.519Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc14"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc15"
+  },
+  "cd": "MDCT0013",
+  "recStatus": true,
+  "medName": "TAB DUTAS T 1 TAB",
+  "isOutside": false,
+  "drugDose": "1 TAB",
+  "unitCd": "1 TAB",
+  "unitName": "1 TAB",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.522Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc17"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc18"
+  },
+  "cd": "MDCT0014",
+  "recStatus": true,
+  "medName": "INJ DYTOR 20MG",
+  "isOutside": false,
+  "drugDose": "20",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.526Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc1a"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc1b"
+  },
+  "cd": "MDCT0015",
+  "recStatus": true,
+  "medName": "INJ DYNAPAR 75MG",
+  "isOutside": false,
+  "drugDose": "75",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.529Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc1d"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc1e"
+  },
+  "cd": "MDCT0016",
+  "recStatus": true,
+  "medName": "OINT DYNAPAR OINT",
+  "isOutside": false,
+  "drugDose": "OINT",
+  "unitCd": "OINT",
+  "unitName": "OINT",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.532Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc20"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc21"
+  },
+  "cd": "MDCT0017",
+  "recStatus": true,
+  "medName": "TAB ECOSPRIN AV 75/20",
+  "isOutside": false,
+  "drugDose": "75/20",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.535Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc23"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc24"
+  },
+  "cd": "MDCT0018",
+  "recStatus": true,
+  "medName": "TAB ECOSPRIN AV 150/20",
+  "isOutside": false,
+  "drugDose": "150/20",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.538Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc26"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc27"
+  },
+  "cd": "MDCT0019",
+  "recStatus": true,
+  "medName": "GEL GLYCERINE  GEL",
+  "isOutside": false,
+  "drugDose": "GEL",
+  "unitCd": "GEL",
+  "unitName": "GEL",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.540Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc29"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc2a"
+  },
+  "cd": "MDCT0020",
+  "recStatus": true,
+  "medName": "TAB HIFENAC MR 925MG",
+  "isOutside": false,
+  "drugDose": "925",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.543Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc2c"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc2d"
+  },
+  "cd": "MDCT0021",
+  "recStatus": true,
+  "medName": "HU-ATRAPID INSULIN",
+  "isOutside": false,
+  "drugDose": "INSULIN",
+  "unitCd": "INSULIN",
+  "unitName": "INSULIN",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.545Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc2f"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc30"
+  },
+  "cd": "MDCT0022",
+  "recStatus": true,
+  "medName": "HU-MIXTARD INSULIN",
+  "isOutside": false,
+  "drugDose": "INSULIN",
+  "unitCd": "INSULIN",
+  "unitName": "INSULIN",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.547Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc32"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc33"
+  },
+  "cd": "MDCT0023",
+  "recStatus": true,
+  "medName": "INJ HYDROCORT 100MG",
+  "isOutside": false,
+  "drugDose": "100",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.549Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc35"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc36"
+  },
+  "cd": "MDCT0024",
+  "recStatus": true,
+  "medName": "TAB LOPERAMIDE (SESTIL) 2MG",
+  "isOutside": false,
+  "drugDose": "2",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.551Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc38"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc39"
+  },
+  "cd": "MDCT0025",
+  "recStatus": true,
+  "medName": "INJ LIGNOCAINE 0.02",
+  "isOutside": false,
+  "drugDose": "0.02",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.554Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc3b"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc3c"
+  },
+  "cd": "MDCT0026",
+  "recStatus": true,
+  "medName": "OINT LIGNOCAINE",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.558Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc3e"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc3f"
+  },
+  "cd": "MDCT0027",
+  "recStatus": true,
+  "medName": "INJ LASIX 40MG",
+  "isOutside": false,
+  "drugDose": "40",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.562Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc41"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc42"
+  },
+  "cd": "MDCT0028",
+  "recStatus": true,
+  "medName": "INJ MONOCEF 1GM",
+  "isOutside": false,
+  "drugDose": "1",
+  "unitCd": "GM",
+  "unitName": "GM",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.564Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc44"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc45"
+  },
+  "cd": "MDCT0029",
+  "recStatus": true,
+  "medName": "TAB METROGYL 400MG",
+  "isOutside": false,
+  "drugDose": "400",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.566Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc47"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc48"
+  },
+  "cd": "MDCT0030",
+  "recStatus": true,
+  "medName": "INJ METROGYL 500MG",
+  "isOutside": false,
+  "drugDose": "500",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.569Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc4a"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc4b"
+  },
+  "cd": "MDCT0031",
+  "recStatus": true,
+  "medName": "TAB MEFTALSPAS 1TAB",
+  "isOutside": false,
+  "drugDose": "1",
+  "unitCd": "TAB",
+  "unitName": "TAB",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.571Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc4d"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc4e"
+  },
+  "cd": "MDCT0032",
+  "recStatus": true,
+  "medName": "TAB MVT 1TAB",
+  "isOutside": false,
+  "drugDose": "1",
+  "unitCd": "TAB",
+  "unitName": "TAB",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.574Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc50"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc51"
+  },
+  "cd": "MDCT0033",
+  "recStatus": true,
+  "medName": "TAB ONDANSETRON (EMCET) 4MG",
+  "isOutside": false,
+  "drugDose": "4",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.576Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc53"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc54"
+  },
+  "cd": "MDCT0034",
+  "recStatus": true,
+  "medName": "INJ ONDANSETRAN 4MG",
+  "isOutside": false,
+  "drugDose": "4",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.578Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc56"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc57"
+  },
+  "cd": "MDCT0035",
+  "recStatus": true,
+  "medName": "INJOPTINEURON MVT",
+  "isOutside": false,
+  "drugDose": "MVT",
+  "unitCd": "MVT",
+  "unitName": "MVT",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.580Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc59"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc5a"
+  },
+  "cd": "MDCT0036",
+  "recStatus": true,
+  "medName": "TAB PAN  40",
+  "isOutside": false,
+  "drugDose": "40",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.582Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc5c"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc5d"
+  },
+  "cd": "MDCT0037",
+  "recStatus": true,
+  "medName": "TAN PAN D 40MG",
+  "isOutside": false,
+  "drugDose": "40",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.584Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc5f"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc60"
+  },
+  "cd": "MDCT0038",
+  "recStatus": true,
+  "medName": "INJ PAN 40MG",
+  "isOutside": false,
+  "drugDose": "40",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.587Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc62"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc63"
+  },
+  "cd": "MDCT0039",
+  "recStatus": true,
+  "medName": "INJ PERINORM 10MG",
+  "isOutside": false,
+  "drugDose": "10",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.588Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc65"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc66"
+  },
+  "cd": "MDCT0040",
+  "recStatus": true,
+  "medName": "TAB PCM 100MG",
+  "isOutside": false,
+  "drugDose": "100",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.591Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc68"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc69"
+  },
+  "cd": "MDCT0041",
+  "recStatus": true,
+  "medName": "INJ PCM 1GM",
+  "isOutside": false,
+  "drugDose": "1",
+  "unitCd": "GM",
+  "unitName": "GM",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.593Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc6b"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc6c"
+  },
+  "cd": "MDCT0042",
+  "recStatus": true,
+  "medName": "TAB ACETAMINOPHEN (MALIDENS)",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.596Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc6e"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc6f"
+  },
+  "cd": "MDCT0043",
+  "recStatus": true,
+  "medName": "TAB PREGABALIN",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.598Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc71"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc72"
+  },
+  "cd": "MDCT0044",
+  "recStatus": true,
+  "medName": "TAB REDOTIL",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.601Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc74"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc75"
+  },
+  "cd": "MDCT0045",
+  "recStatus": true,
+  "medName": "TAB SPOROLAC DS",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.603Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc77"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc78"
+  },
+  "cd": "MDCT0046",
+  "recStatus": true,
+  "medName": "TAB SHELCAL",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.605Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc7a"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc7b"
+  },
+  "cd": "MDCT0047",
+  "recStatus": true,
+  "medName": "TAB SILOFAST D8",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.606Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc7d"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc7e"
+  },
+  "cd": "MDCT0048",
+  "recStatus": true,
+  "medName": "TAB STILOZ",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.608Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc80"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc81"
+  },
+  "cd": "MDCT0049",
+  "recStatus": true,
+  "medName": "INJ TRAMADOL",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.611Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc83"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc84"
+  },
+  "cd": "MDCT0050",
+  "recStatus": true,
+  "medName": "TBACT OINTMENT L/A",
+  "isOutside": false,
+  "drugDose": "L/A",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.614Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc86"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc87"
+  },
+  "cd": "MDCT0051",
+  "recStatus": true,
+  "medName": "TAB TAXIM 200MG",
+  "isOutside": false,
+  "drugDose": "200",
+  "unitCd": "MG",
+  "unitName": "MG",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.617Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc89"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc8a"
+  },
+  "cd": "MDCT0052",
+  "recStatus": true,
+  "medName": "INJ TRANEXA",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.621Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc8c"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc8d"
+  },
+  "cd": "MDCT0053",
+  "recStatus": true,
+  "medName": "TAB ULTRACET",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.624Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc8f"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc90"
+  },
+  "cd": "MDCT0054",
+  "recStatus": true,
+  "medName": "SYP RESWAS",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.627Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc92"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc93"
+  },
+  "cd": "MDCT0055",
+  "recStatus": true,
+  "medName": "SYP AMRODYL",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.630Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc95"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc96"
+  },
+  "cd": "MDCT0056",
+  "recStatus": true,
+  "medName": "NEB ASTHALIN",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.633Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc98"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc99"
+  },
+  "cd": "MDCT0057",
+  "recStatus": true,
+  "medName": "NEB BUDECORT",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.636Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc9b"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc9c"
+  },
+  "cd": "MDCT0058",
+  "recStatus": true,
+  "medName": "NEB DUOLIN",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.639Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efc9e"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6735f3fd6c1705d72a6efc9f"
+  },
+  "cd": "MDCT0059",
+  "recStatus": true,
+  "medName": "LOTION VENUSIA",
+  "isOutside": false,
+  "drugDose": "",
+  "unitCd": "",
+  "unitName": "",
+  "wholeNo": false,
+  "allowDoseVolume": false,
+  "isVaccine": false,
+  "tarrif": [],
+  "audit": {
+    "documentedById": "67332702efbf5fc46f62f120",
+    "documentedBy": "km_practiceadmin",
+    "documentedDt": "2024-11-14T12:58:37.641Z",
+    "_id": {
+      "$oid": "6735f3fd6c1705d72a6efca1"
+    }
+  },
+  "revNo": 1,
+  "lookLikeCombinations": [],
+  "soundLikeCombinations": [],
+  "multyRout": [],
+  "stock": [],
+  "prescribedUnitMulty": [],
+  "history": [],
+  "__v": 0
+}]

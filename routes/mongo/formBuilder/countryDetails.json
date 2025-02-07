@@ -1,0 +1,298 @@
+{
+    "country": [
+        {
+            "id": 91,
+            "value": "India",
+            "type": "country"
+        },
+        {
+            "id": 81,
+            "value": "England",
+            "type": "country"
+        }
+    ],
+    "states": [
+        {
+            "id": 91,
+            "value": "India",
+            "data": [
+                {
+                    "id": 20,
+                    "value": "AndhraPradesh",
+                    "type": "States"
+                },
+                {
+                    "id": 21,
+                    "value": "Tamilnadu",
+                    "type": "States"
+                },
+                {
+                    "id": 22,
+                    "value": "Karnataka",
+                    "type": "States"
+                },
+                {
+                    "id": 23,
+                    "value": "Odisha",
+                    "type": "States"
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "value": "England",
+            "data": [
+                {
+                    "id": 30,
+                    "value": "London",
+                    "type": "States"
+                },
+                {
+                    "id": 31,
+                    "value": "Midlands",
+                    "type": "States"
+                },
+                {
+                    "id": 22,
+                    "value": "Walles",
+                    "type": "States"
+                },
+                {
+                    "id": 23,
+                    "value": "Angels",
+                    "type": "States"
+                }
+            ]
+        }
+    ],
+    "Districts": [
+        {
+            "id": 20,
+            "value": "AndhraPradesh",
+            "data": [
+                {
+                    "id": 100,
+                    "value": "Kurnool",
+                    "type": "Districts"
+                },
+                {
+                    "id": 101,
+                    "value": "Srikakulam",
+                    "type": "Districts"
+                },
+                {
+                    "id": 102,
+                    "value": " Vizianagaram",
+                    "type": "Districts"
+                },
+                {
+                    "id": 103,
+                    "value": " Visakhapatnam",
+                    "type": "Districts"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "value": "Tamilnadu",
+            "data": [
+                {
+                    "id": 104,
+                    "value": "Chengalpattu",
+                    "type": "Districts"
+                },
+                {
+                    "id": 105,
+                    "value": "Chennai",
+                    "type": "Districts"
+                },
+                {
+                    "id": 106,
+                    "value": " Coimbatore",
+                    "type": "Districts"
+                },
+                {
+                    "id": 107,
+                    "value": " Dharmapuri",
+                    "type": "Districts"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "value": "Karnataka",
+            "data": [
+                {
+                    "id": 108,
+                    "value": "bidar",
+                    "type": "Districts"
+                },
+                {
+                    "id": 109,
+                    "value": "bangalore",
+                    "type": "Districts"
+                },
+                {
+                    "id": 110,
+                    "value": " chickballapur",
+                    "type": "Districts"
+                },
+                {
+                    "id": 111,
+                    "value": " Belagavi",
+                    "type": "Districts"
+                }
+            ]
+        }
+    ],
+    "Cities": [
+        {
+            "id": 100,
+            "value": "Kurnool",
+            "data": [
+                {
+                    "id": 201,
+                    "value": "Allagadda",
+                    "type": "Cities"
+                },
+                {
+                    "id": 202,
+                    "value": "Dhone",
+                    "type": "Cities"
+                },
+                {
+                    "id": 203,
+                    "value": " Nandyal",
+                    "type": "Cities"
+                },
+                {
+                    "id": 204,
+                    "value": "Srisailam",
+                    "type": "Cities"
+                }
+            ]
+        },
+        {
+            "id": 101,
+            "value": "Srikakulam",
+            "data": [
+                {
+                    "id": 211,
+                    "value": "Palasa",
+                    "type": "Cities"
+                },
+                {
+                    "id": 212,
+                    "value": "Rajam",
+                    "type": "Cities"
+                },
+                {
+                    "id": 213,
+                    "value": " Srikakulam",
+                    "type": "Cities"
+                },
+                {
+                    "id": 214,
+                    "value": " panduru",
+                    "type": "Cities"
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "value": "Vizianagaram",
+            "data": [
+                {
+                    "id": 215,
+                    "value": "Bobolli",
+                    "type": "Cities"
+                },
+                {
+                    "id": 216,
+                    "value": "Chipurupalli",
+                    "type": "Cities"
+                },
+                {
+                    "id": 217,
+                    "value": " vangara",
+                    "type": "Cities"
+                },
+                {
+                    "id": 218,
+                    "value": " Visakhapatnam",
+                    "type": "Cities"
+                }
+            ]
+        },
+        {
+            "id": 103,
+            "value": "Visakhapatnam",
+            "data": [
+                {
+                    "id": 205,
+                    "value": "Gajuvaka",
+                    "type": "Cities"
+                },
+                {
+                    "id": 206,
+                    "value": "Anakapalle",
+                    "type": "Cities"
+                },
+                {
+                    "id": 207,
+                    "value": " Narisipatnam",
+                    "type": "Cities"
+                },
+                {
+                    "id": 208,
+                    "value": " Paravada",
+                    "type": "Cities"
+                }
+            ]
+        }
+    ],
+    "genderInfo":[
+        {
+           "id":1,
+           "value":"Male"
+        },
+        {
+           "id":2,
+           "value":"Female"
+        }
+   ],
+  "typesOfGenderData":[
+      {
+       "id":3,
+       "value":"Male",
+       "data":[
+           {
+               "id":31,
+               "value":"Mr"
+           },
+           {
+               "id":32,
+               "value":"Doctor"
+           }
+       ]
+      },
+      {
+       "id":4,
+       "value":"Female",
+       "data":[
+           {
+               "id":41,
+               "value":"Mis"
+           },
+           {
+               "id":42,
+               "value":"miss"
+           },
+           {
+               "id":43,
+               "value":"BabyGirl"
+           }
+       ]
+      }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 15
+    },
+    "auditLog": "D:\\NODE_CODE_BACKUP\\20250207\\api_v1\\public\\logs\\winston\\ophtha\\.2f5765d21a29abf33a6eeea9c4f1427d3b618743-audit.json",
+    "files": [
+        {
+            "date": 1738918918447,
+            "name": "D:\\NODE_CODE_BACKUP\\20250207\\api_v1\\public\\logs\\winston\\ophtha\\20250207.log",
+            "hash": "0e0e7ef33c32515193331ca5190d20dd"
+        }
+    ]
+}
