@@ -411,7 +411,7 @@ const _org = new mongoose.Schema([
         }],
         sessionId: {
             type: String,
-            required: true
+            // required: true
         },
         locations: [
             {
