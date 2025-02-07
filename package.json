@@ -4,6 +4,7 @@
   "description": "",
   "main": "applications/appt.js",
   "scripts": {
+    "start": "node applications/appt.js", 
     "appt": "node applications/appt.js",
     "appt-test": "node applications/appt-test.js",
     "qi": "node applications/qi.js",
