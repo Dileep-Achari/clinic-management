@@ -54,7 +54,6 @@
     "string-similarity": "^4.0.4",
     "twilio": "^5.4.3",
     "underscore": "=1.13.2",
-    "underscore.template": "=0.1.7",
     "uuid": "=8.3.2",
     "winston": "=3.3.3",
     "winston-daily-rotate-file": "4.5.5"
