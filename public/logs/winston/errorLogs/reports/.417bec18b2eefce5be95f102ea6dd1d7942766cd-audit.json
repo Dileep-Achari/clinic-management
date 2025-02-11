@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 15
+    },
+    "auditLog": "D:\\Projects\\render_node_live_cm\\api_v1\\api_v1\\public\\logs\\winston\\errorLogs\\reports\\.417bec18b2eefce5be95f102ea6dd1d7942766cd-audit.json",
+    "files": [
+        {
+            "date": 1739081286426,
+            "name": "D:\\Projects\\render_node_live_cm\\api_v1\\api_v1\\public\\logs\\winston\\errorLogs\\reports\\20250209.log",
+            "hash": "2a57defe0a42f4da888e25ca8a498ca4"
+        },
+        {
+            "date": 1739251524954,
+            "name": "D:\\Projects\\render_node_live_cm\\api_v1\\api_v1\\public\\logs\\winston\\errorLogs\\reports\\20250211.log",
+            "hash": "5fc02d153853293ecb89e970a203c4bb"
+        }
+    ]
+}

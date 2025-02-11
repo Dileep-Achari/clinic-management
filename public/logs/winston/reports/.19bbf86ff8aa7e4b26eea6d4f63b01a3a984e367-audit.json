@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 15
+    },
+    "auditLog": "D:\\Projects\\render_node_live_cm\\api_v1\\api_v1\\public\\logs\\winston\\reports\\.19bbf86ff8aa7e4b26eea6d4f63b01a3a984e367-audit.json",
+    "files": [
+        {
+            "date": 1739081286422,
+            "name": "D:\\Projects\\render_node_live_cm\\api_v1\\api_v1\\public\\logs\\winston\\reports\\20250209.log",
+            "hash": "6a540a7849ba3e25376711c4901f724c"
+        },
+        {
+            "date": 1739251524948,
+            "name": "D:\\Projects\\render_node_live_cm\\api_v1\\api_v1\\public\\logs\\winston\\reports\\20250211.log",
+            "hash": "2f9cb6f373b9a36aa984eec9977e4d27"
+        }
+    ]
+}

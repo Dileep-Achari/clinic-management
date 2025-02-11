@@ -1,5 +1,5 @@
 
-const apptApi = require('../routes/sql/appointments/api');
+// const apptApi = require('../routes/sql/appointments/api');
 /*
 const apkDoctor = require('../routes/sql/apk/doctor');
 const apkKd = require('../routes/sql/apk/kd');
@@ -44,7 +44,7 @@ const dkcrush = require("../routes/mongo/dkcrush/api");
 const ophthamology_ecg = require("../routes/mongo/ophthamologyAndEcg/api");
 
 module.exports = (app) => {
-    app.use('/apt/api', apptApi);
+    // app.use('/apt/api', apptApi);
     /*app.use('/apk/doctor', apkDoctor);
     app.use('/apk/kd', apkKd);
     app.use('/apk/slg', apkSlg);

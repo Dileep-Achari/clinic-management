@@ -1009,7 +1009,7 @@ const _role_master = new mongoose.Schema([
         },
         sessionId: {
             type: String,
-            required: true
+            // required: true
         },
         recStatus: {
             type: Boolean,

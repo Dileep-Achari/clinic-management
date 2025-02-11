@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 15
+    },
+    "auditLog": "D:\\Projects\\render_node_live_cm\\api_v1\\api_v1\\public\\logs\\winston\\ophtha\\.353e93d919ce1ddf276705cfc42f894fa605e13c-audit.json",
+    "files": [
+        {
+            "date": 1739081286494,
+            "name": "D:\\Projects\\render_node_live_cm\\api_v1\\api_v1\\public\\logs\\winston\\ophtha\\20250209.log",
+            "hash": "522befa60e7ec51b196893b80718cde8"
+        },
+        {
+            "date": 1739251525067,
+            "name": "D:\\Projects\\render_node_live_cm\\api_v1\\api_v1\\public\\logs\\winston\\ophtha\\20250211.log",
+            "hash": "02d68cf56b937df4c71ae5f3a6ec92a5"
+        }
+    ]
+}
