@@ -6,6 +6,7 @@ module.exports = (app) => {
     {
         "origin": "*",
         origin: "https://patientcare.doctor9.com",
+
         // origin: true,
         "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
         "preflightContinue": false,
@@ -17,5 +18,5 @@ module.exports = (app) => {
     app.use(cors(corsOption));
     app.options('*', cors(corsOption));
     app.use(cookieParser());
-    // app.use(cors()); // set cors here
+  app.use(cors()); // set cors here
 };
